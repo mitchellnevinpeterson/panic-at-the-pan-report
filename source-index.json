@@ -508,5 +508,959 @@
     "name": "terminal.c",
     "group": "scaffold",
     "label": "team-repository/firmware/vendor/es_framework/FrameworkSource/terminal.c"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/DeviceConfig.c",
+    "name": "DeviceConfig.c",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/DeviceConfig.c"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/board.h",
+    "name": "board.h",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/board.h"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/display.c",
+    "name": "display.c",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/display.c"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/display_spi.h",
+    "name": "display_spi.h",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/display_spi.h"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/heat_audio.c",
+    "name": "heat_audio.c",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/heat_audio.c"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/heat_audio.h",
+    "name": "heat_audio.h",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/heat_audio.h"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/heat_lcd.c",
+    "name": "heat_lcd.c",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/heat_lcd.c"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/heat_lcd.h",
+    "name": "heat_lcd.h",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/heat_lcd.h"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/lcd_bench.c",
+    "name": "lcd_bench.c",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/lcd_bench.c"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/sizzle.h",
+    "name": "sizzle.h",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/sizzle.h"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/st7789.c",
+    "name": "st7789.c",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/st7789.c"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/st7789.h",
+    "name": "st7789.h",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/st7789.h"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/ultrasonic.c",
+    "name": "ultrasonic.c",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/ultrasonic.c"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/ultrasonic.h",
+    "name": "ultrasonic.h",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/ultrasonic.h"
+  },
+  {
+    "path": "source/integrated-firmware/PIC32-LCD/src/ultrasonic_main.c",
+    "name": "ultrasonic_main.c",
+    "group": "integrated",
+    "label": "PIC32-LCD/src/ultrasonic_main.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/ButtonEInk.c",
+    "name": "ButtonEInk.c",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/ButtonEInk.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/ButtonEInk.h",
+    "name": "ButtonEInk.h",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/ButtonEInk.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/ButtonEInkPort.c",
+    "name": "ButtonEInkPort.c",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/ButtonEInkPort.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/ButtonEInkPort.h",
+    "name": "ButtonEInkPort.h",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/ButtonEInkPort.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/ButtonSensor.c",
+    "name": "ButtonSensor.c",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/ButtonSensor.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/ButtonSensor.h",
+    "name": "ButtonSensor.h",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/ButtonSensor.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/GameButtons.c",
+    "name": "GameButtons.c",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/GameButtons.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/GameButtons.h",
+    "name": "GameButtons.h",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/GameButtons.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/Stirrer.c",
+    "name": "Stirrer.c",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/Stirrer.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/Stirrer.h",
+    "name": "Stirrer.h",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/Stirrer.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/Treat.c",
+    "name": "Treat.c",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/Treat.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/Treat.h",
+    "name": "Treat.h",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/Treat.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/pic1_main.c",
+    "name": "pic1_main.c",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/pic1_main.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_buttons/pic2_main.c",
+    "name": "pic2_main.c",
+    "group": "integrated",
+    "label": "firmware/bench/game_buttons/pic2_main.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_sm/BenchIO.c",
+    "name": "BenchIO.c",
+    "group": "integrated",
+    "label": "firmware/bench/game_sm/BenchIO.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_sm/BenchIO.h",
+    "name": "BenchIO.h",
+    "group": "integrated",
+    "label": "firmware/bench/game_sm/BenchIO.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_sm/GameBenchConfig.h",
+    "name": "GameBenchConfig.h",
+    "group": "integrated",
+    "label": "firmware/bench/game_sm/GameBenchConfig.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/game_sm/main.c",
+    "name": "main.c",
+    "group": "integrated",
+    "label": "firmware/bench/game_sm/main.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/ingredient_eink/BenchBoard.c",
+    "name": "BenchBoard.c",
+    "group": "integrated",
+    "label": "firmware/bench/ingredient_eink/BenchBoard.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/ingredient_eink/BenchBoard.h",
+    "name": "BenchBoard.h",
+    "group": "integrated",
+    "label": "firmware/bench/ingredient_eink/BenchBoard.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/ingredient_eink/BenchCanvas.c",
+    "name": "BenchCanvas.c",
+    "group": "integrated",
+    "label": "firmware/bench/ingredient_eink/BenchCanvas.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/ingredient_eink/BenchCanvas.h",
+    "name": "BenchCanvas.h",
+    "group": "integrated",
+    "label": "firmware/bench/ingredient_eink/BenchCanvas.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/ingredient_eink/BenchModel.c",
+    "name": "BenchModel.c",
+    "group": "integrated",
+    "label": "firmware/bench/ingredient_eink/BenchModel.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/ingredient_eink/BenchModel.h",
+    "name": "BenchModel.h",
+    "group": "integrated",
+    "label": "firmware/bench/ingredient_eink/BenchModel.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/ingredient_eink/BenchWire.c",
+    "name": "BenchWire.c",
+    "group": "integrated",
+    "label": "firmware/bench/ingredient_eink/BenchWire.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/ingredient_eink/BenchWire.h",
+    "name": "BenchWire.h",
+    "group": "integrated",
+    "label": "firmware/bench/ingredient_eink/BenchWire.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/ingredient_eink/pic1_main.c",
+    "name": "pic1_main.c",
+    "group": "integrated",
+    "label": "firmware/bench/ingredient_eink/pic1_main.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/ingredient_eink/pic2_main.c",
+    "name": "pic2_main.c",
+    "group": "integrated",
+    "label": "firmware/bench/ingredient_eink/pic2_main.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/joystick_servo_2/BenchConfig.h",
+    "name": "BenchConfig.h",
+    "group": "integrated",
+    "label": "firmware/bench/joystick_servo_2/BenchConfig.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/joystick_servo_2/Follower.c",
+    "name": "Follower.c",
+    "group": "integrated",
+    "label": "firmware/bench/joystick_servo_2/Follower.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/joystick_servo_2/Follower.h",
+    "name": "Follower.h",
+    "group": "integrated",
+    "label": "firmware/bench/joystick_servo_2/Follower.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/joystick_servo_2/main.c",
+    "name": "main.c",
+    "group": "integrated",
+    "label": "firmware/bench/joystick_servo_2/main.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/lcd_pic2/LcdSoftSPI.c",
+    "name": "LcdSoftSPI.c",
+    "group": "integrated",
+    "label": "firmware/bench/lcd_pic2/LcdSoftSPI.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/lcd_pic2/LcdSoftSPI.h",
+    "name": "LcdSoftSPI.h",
+    "group": "integrated",
+    "label": "firmware/bench/lcd_pic2/LcdSoftSPI.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/lcd_pic2/main.c",
+    "name": "main.c",
+    "group": "integrated",
+    "label": "firmware/bench/lcd_pic2/main.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/score_timer/BenchConfig.h",
+    "name": "BenchConfig.h",
+    "group": "integrated",
+    "label": "firmware/bench/score_timer/BenchConfig.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/score_timer/ClockConfig.c",
+    "name": "ClockConfig.c",
+    "group": "integrated",
+    "label": "firmware/bench/score_timer/ClockConfig.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/bench/score_timer/main.c",
+    "name": "main.c",
+    "group": "integrated",
+    "label": "firmware/bench/score_timer/main.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/config/BoardConfig.h",
+    "name": "BoardConfig.h",
+    "group": "integrated",
+    "label": "firmware/config/BoardConfig.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/config/ES_Configure.h",
+    "name": "ES_Configure.h",
+    "group": "integrated",
+    "label": "firmware/config/ES_Configure.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/config/GameConfig.c",
+    "name": "GameConfig.c",
+    "group": "integrated",
+    "label": "firmware/config/GameConfig.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/config/GameConfig.h",
+    "name": "GameConfig.h",
+    "group": "integrated",
+    "label": "firmware/config/GameConfig.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/Dispenser.h",
+    "name": "Dispenser.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/Dispenser.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/DriverStatus.h",
+    "name": "DriverStatus.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/DriverStatus.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/EInkDisplay.h",
+    "name": "EInkDisplay.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/EInkDisplay.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/InputButtons.h",
+    "name": "InputButtons.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/InputButtons.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/Joystick.h",
+    "name": "Joystick.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/Joystick.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/JoystickADC.h",
+    "name": "JoystickADC.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/JoystickADC.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/LedPanels.h",
+    "name": "LedPanels.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/LedPanels.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/ScoreTimerDisplay.h",
+    "name": "ScoreTimerDisplay.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/ScoreTimerDisplay.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/Servo50Hz.h",
+    "name": "Servo50Hz.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/Servo50Hz.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/Servos.h",
+    "name": "Servos.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/Servos.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/Sound.h",
+    "name": "Sound.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/Sound.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/SpoonServo.h",
+    "name": "SpoonServo.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/SpoonServo.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/StatusDisplaySPI.h",
+    "name": "StatusDisplaySPI.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/StatusDisplaySPI.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/include/Ultrasonic.h",
+    "name": "Ultrasonic.h",
+    "group": "integrated",
+    "label": "firmware/drivers/include/Ultrasonic.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/reused/DM_Display.c",
+    "name": "DM_Display.c",
+    "group": "integrated",
+    "label": "firmware/drivers/reused/DM_Display.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/reused/DM_Display.h",
+    "name": "DM_Display.h",
+    "group": "integrated",
+    "label": "firmware/drivers/reused/DM_Display.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/reused/FontStuff.c",
+    "name": "FontStuff.c",
+    "group": "integrated",
+    "label": "firmware/drivers/reused/FontStuff.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/reused/FontStuff.h",
+    "name": "FontStuff.h",
+    "group": "integrated",
+    "label": "firmware/drivers/reused/FontStuff.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/reused/PIC32_SPI_HAL.c",
+    "name": "PIC32_SPI_HAL.c",
+    "group": "integrated",
+    "label": "firmware/drivers/reused/PIC32_SPI_HAL.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/reused/PIC32_SPI_HAL.h",
+    "name": "PIC32_SPI_HAL.h",
+    "group": "integrated",
+    "label": "firmware/drivers/reused/PIC32_SPI_HAL.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/Dispenser.c",
+    "name": "Dispenser.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/Dispenser.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/EInkDisplay.c",
+    "name": "EInkDisplay.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/EInkDisplay.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/InputButtons.c",
+    "name": "InputButtons.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/InputButtons.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/Joystick.c",
+    "name": "Joystick.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/Joystick.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/JoystickADC.c",
+    "name": "JoystickADC.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/JoystickADC.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/LedPanels.c",
+    "name": "LedPanels.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/LedPanels.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/ScoreTimerDisplay.c",
+    "name": "ScoreTimerDisplay.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/ScoreTimerDisplay.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/Servo50Hz.c",
+    "name": "Servo50Hz.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/Servo50Hz.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/Servos.c",
+    "name": "Servos.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/Servos.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/Sound.c",
+    "name": "Sound.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/Sound.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/SpoonServo.c",
+    "name": "SpoonServo.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/SpoonServo.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/StatusDisplaySPI.c",
+    "name": "StatusDisplaySPI.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/StatusDisplaySPI.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/drivers/src/Ultrasonic.c",
+    "name": "Ultrasonic.c",
+    "group": "integrated",
+    "label": "firmware/drivers/src/Ultrasonic.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/link/PeerLink.c",
+    "name": "PeerLink.c",
+    "group": "integrated",
+    "label": "firmware/link/PeerLink.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/link/PeerLink.h",
+    "name": "PeerLink.h",
+    "group": "integrated",
+    "label": "firmware/link/PeerLink.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/link/PeerUart.c",
+    "name": "PeerUart.c",
+    "group": "integrated",
+    "label": "firmware/link/PeerUart.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/link/PeerUart.h",
+    "name": "PeerUart.h",
+    "group": "integrated",
+    "label": "firmware/link/PeerUart.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic1/EInkAsync.c",
+    "name": "EInkAsync.c",
+    "group": "integrated",
+    "label": "firmware/pic1/EInkAsync.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic1/EInkAsync.h",
+    "name": "EInkAsync.h",
+    "group": "integrated",
+    "label": "firmware/pic1/EInkAsync.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic1/GameIO.c",
+    "name": "GameIO.c",
+    "group": "integrated",
+    "label": "firmware/pic1/GameIO.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic1/GameIO.h",
+    "name": "GameIO.h",
+    "group": "integrated",
+    "label": "firmware/pic1/GameIO.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic1/PanCanvas.c",
+    "name": "PanCanvas.c",
+    "group": "integrated",
+    "label": "firmware/pic1/PanCanvas.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic1/PanCanvas.h",
+    "name": "PanCanvas.h",
+    "group": "integrated",
+    "label": "firmware/pic1/PanCanvas.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic1/Pic1Board.c",
+    "name": "Pic1Board.c",
+    "group": "integrated",
+    "label": "firmware/pic1/Pic1Board.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic1/Pic1Board.h",
+    "name": "Pic1Board.h",
+    "group": "integrated",
+    "label": "firmware/pic1/Pic1Board.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic1/Pic1Config.h",
+    "name": "Pic1Config.h",
+    "group": "integrated",
+    "label": "firmware/pic1/Pic1Config.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/Audio.c",
+    "name": "Audio.c",
+    "group": "integrated",
+    "label": "firmware/pic2/Audio.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/Audio.h",
+    "name": "Audio.h",
+    "group": "integrated",
+    "label": "firmware/pic2/Audio.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/HeatAudio.c",
+    "name": "HeatAudio.c",
+    "group": "integrated",
+    "label": "firmware/pic2/HeatAudio.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/HeatAudio.h",
+    "name": "HeatAudio.h",
+    "group": "integrated",
+    "label": "firmware/pic2/HeatAudio.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/HeatView.c",
+    "name": "HeatView.c",
+    "group": "integrated",
+    "label": "firmware/pic2/HeatView.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/HeatView.h",
+    "name": "HeatView.h",
+    "group": "integrated",
+    "label": "firmware/pic2/HeatView.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/Inputs.c",
+    "name": "Inputs.c",
+    "group": "integrated",
+    "label": "firmware/pic2/Inputs.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/Inputs.h",
+    "name": "Inputs.h",
+    "group": "integrated",
+    "label": "firmware/pic2/Inputs.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/McpInputs.c",
+    "name": "McpInputs.c",
+    "group": "integrated",
+    "label": "firmware/pic2/McpInputs.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/McpInputs.h",
+    "name": "McpInputs.h",
+    "group": "integrated",
+    "label": "firmware/pic2/McpInputs.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/Range.c",
+    "name": "Range.c",
+    "group": "integrated",
+    "label": "firmware/pic2/Range.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/Range.h",
+    "name": "Range.h",
+    "group": "integrated",
+    "label": "firmware/pic2/Range.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/pic2/main.c",
+    "name": "main.c",
+    "group": "integrated",
+    "label": "firmware/pic2/main.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/include/CookSM.h",
+    "name": "CookSM.h",
+    "group": "integrated",
+    "label": "firmware/services/include/CookSM.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/include/GameSM.h",
+    "name": "GameSM.h",
+    "group": "integrated",
+    "label": "firmware/services/include/GameSM.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/include/HeatSM.h",
+    "name": "HeatSM.h",
+    "group": "integrated",
+    "label": "firmware/services/include/HeatSM.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/include/IngredientSM.h",
+    "name": "IngredientSM.h",
+    "group": "integrated",
+    "label": "firmware/services/include/IngredientSM.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/include/PanDisplaySM.h",
+    "name": "PanDisplaySM.h",
+    "group": "integrated",
+    "label": "firmware/services/include/PanDisplaySM.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/include/ScoreSM.h",
+    "name": "ScoreSM.h",
+    "group": "integrated",
+    "label": "firmware/services/include/ScoreSM.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/include/StirSM.h",
+    "name": "StirSM.h",
+    "group": "integrated",
+    "label": "firmware/services/include/StirSM.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/src/CookSM.c",
+    "name": "CookSM.c",
+    "group": "integrated",
+    "label": "firmware/services/src/CookSM.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/src/GameSM.c",
+    "name": "GameSM.c",
+    "group": "integrated",
+    "label": "firmware/services/src/GameSM.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/src/HeatSM.c",
+    "name": "HeatSM.c",
+    "group": "integrated",
+    "label": "firmware/services/src/HeatSM.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/src/IngredientSM.c",
+    "name": "IngredientSM.c",
+    "group": "integrated",
+    "label": "firmware/services/src/IngredientSM.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/src/PanDisplaySM.c",
+    "name": "PanDisplaySM.c",
+    "group": "integrated",
+    "label": "firmware/services/src/PanDisplaySM.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/src/ScoreSM.c",
+    "name": "ScoreSM.c",
+    "group": "integrated",
+    "label": "firmware/services/src/ScoreSM.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/services/src/StirSM.c",
+    "name": "StirSM.c",
+    "group": "integrated",
+    "label": "firmware/services/src/StirSM.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/Bin_Const.h",
+    "name": "Bin_Const.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/Bin_Const.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_CheckEvents.h",
+    "name": "ES_CheckEvents.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_CheckEvents.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_Configure.h",
+    "name": "ES_Configure.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_Configure.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_DeferRecall.h",
+    "name": "ES_DeferRecall.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_DeferRecall.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_Events.h",
+    "name": "ES_Events.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_Events.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_Framework.h",
+    "name": "ES_Framework.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_Framework.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_General.h",
+    "name": "ES_General.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_General.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_LookupTables.h",
+    "name": "ES_LookupTables.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_LookupTables.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_Port.h",
+    "name": "ES_Port.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_Port.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_PostList.h",
+    "name": "ES_PostList.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_PostList.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_Queue.h",
+    "name": "ES_Queue.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_Queue.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_ServiceHeaders.h",
+    "name": "ES_ServiceHeaders.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_ServiceHeaders.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_Timers.h",
+    "name": "ES_Timers.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_Timers.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/ES_Types.h",
+    "name": "ES_Types.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/ES_Types.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/bitdefs.h",
+    "name": "bitdefs.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/bitdefs.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/circular_buffer.h",
+    "name": "circular_buffer.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/circular_buffer.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/dbprintf.h",
+    "name": "dbprintf.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/dbprintf.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkHeaders/terminal.h",
+    "name": "terminal.h",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkHeaders/terminal.h"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkSource/ES_CheckEvents.c",
+    "name": "ES_CheckEvents.c",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkSource/ES_CheckEvents.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkSource/ES_DeferRecall.c",
+    "name": "ES_DeferRecall.c",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkSource/ES_DeferRecall.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkSource/ES_Framework.c",
+    "name": "ES_Framework.c",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkSource/ES_Framework.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkSource/ES_LookupTables.c",
+    "name": "ES_LookupTables.c",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkSource/ES_LookupTables.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkSource/ES_Port.c",
+    "name": "ES_Port.c",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkSource/ES_Port.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkSource/ES_PostList.c",
+    "name": "ES_PostList.c",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkSource/ES_PostList.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkSource/ES_Queue.c",
+    "name": "ES_Queue.c",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkSource/ES_Queue.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkSource/ES_Timers.c",
+    "name": "ES_Timers.c",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkSource/ES_Timers.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkSource/circular_buffer_no_modulo_threadsafe.c",
+    "name": "circular_buffer_no_modulo_threadsafe.c",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkSource/circular_buffer_no_modulo_threadsafe.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkSource/dbprintf.c",
+    "name": "dbprintf.c",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkSource/dbprintf.c"
+  },
+  {
+    "path": "source/integrated-firmware/firmware/vendor/es_framework/FrameworkSource/terminal.c",
+    "name": "terminal.c",
+    "group": "integrated",
+    "label": "firmware/vendor/es_framework/FrameworkSource/terminal.c"
   }
 ]

@@ -109,16 +109,16 @@ function setupTabs(container, callback) {
 }
 setupTabs($('.brain-tabs'), tab => { for (const panel of $$('.brain-panel')) panel.hidden = panel.id !== tab.getAttribute('aria-controls'); });
 const services = {
- game: ['Run the round.', 'Own the game clock, inactivity timer, Finish eligibility, result/reset sequence and reward request. The final hardware instead has explicit green Start and red Stop controls.', ['Welcome', 'Cooking', 'Result / timeout']],
- ingredient: ['Add it once.', 'The original design records an added-ingredient mask, suppresses repeated additions, and posts accepted ingredients to the interested services. Final ingredient names and switch rules await the grading code.', ['Ready', 'Locked']],
- heat: ['Keep it cooking.', 'The checkpoint proposes continuous heat scoring and a burn after three seconds above 1.5 times an ingredient target. The separate peripheral code provides distance-based zones, LCD feedback and sizzle.', ['PanEmpty', 'Cooking', 'Overheating', 'Burning']],
- stir: ['Turn input into motion.', 'The final machine uses a small servo to sweep the spatula back and forth under joystick control. The older FSM instead planned angular movement tracking and per-ingredient stir time; final scoring needs code verification.', ['Idle', 'NotStirring', 'Stirring']],
- score: ['One owner for the score.', 'The planned Score service accumulates ingredient, heat and stirring points and applies burn penalties. Recipe membership and weights are unconfigured in the supplied scaffold.', ['Idle', 'Active']],
- pan: ['Put the food in the pan.', 'The final e-paper screen displays an ingredient icon when its switch is turned on. The original Pan Display service planned a pan-shaped matrix with icons and swirl animation; that concept changed.', ['Attract', 'Ingredient / pan view', 'End indication']]
+ game: ['Run the round.', 'GameSM owns Welcome, dish introduction, 60-second cooking, Finish eligibility at 30 seconds, and the result/reset sequence. Inactivity returns to Welcome after 20 seconds without reward.', ['Welcome', 'Dish intro', 'Cooking', 'Result']],
+ ingredient: ['Add it once.', 'IngredientSM accepts Protein, Carb, Vegetables, Spice and Oil once per round. ON adds an ingredient; OFF is activity only. A switch already ON at cooking start must first go OFF. PIC2 sends reliable edges; PIC1 owns acceptance.', ['Ready', 'Accepted mask', 'Round reset']],
+ heat: ['Keep it cooking.', 'CookSM uses the newest ingredient target with a ±4 cm band. Heat earns up to +1 point/s. Three continuous seconds TOO MUCH burns it for −10 once and stops heat points. Targets are 14/24/32/28/10 cm.', ['Waiting', 'Not enough', 'Just right', 'Too much / burnt']],
+ stir: ['Turn input into motion.', 'PIC1 reads joystick X/Y and sends 50 Hz pulses to the spoon servo. Checked-off scores stirring time; the latest branch detects full eight-sector joystick circles and awards +1 up to each ideal count, then −1. The reward uses a separate MG995 servo.', ['Learn center', 'Follow joystick', 'Return home']],
+ score: ['One owner for the score.', 'ScoreSM alone accumulates signed millipoints, clamps the score at zero, and finalizes after cooking updates. Correct/wrong ingredients give +10/−10; heat, burn, stirring and flips also contribute. Finish/time-limit endings dispense only at score ≥50.', ['Idle', 'Active', 'Finalized']],
+ pan: ['Put the food in the pan.', 'ButtonEInk accumulates accepted ingredient icons, batches additions after a 500 ms pause, and services a non-blocking black/white refresh. Clear frames finish before new-round icons. Matrices separately show the dish, live time/score and end message.', ['White', 'Batch icons', 'Refresh', 'Clear']]
 };
 setupTabs($('.service-menu'), tab => {
  const [title, text, states] = services[tab.dataset.service]; const panel = $('#service-panel'); panel.setAttribute('aria-labelledby', tab.id); panel.replaceChildren();
- const label = document.createElement('p'); label.className = 'micro-label'; label.textContent = 'ORIGINAL CHECKPOINT DESIGN + FINAL BUILD NOTES';
+ const label = document.createElement('p'); label.className = 'micro-label'; label.textContent = 'INTEGRATED SOURCE + REVISION NOTES';
  const h3 = document.createElement('h3'); h3.textContent = title; const p = document.createElement('p'); p.textContent = text; const flow = document.createElement('div'); flow.className = 'state-flow';
  states.forEach((state, i) => { if (i) { const dot = document.createElement('i'); dot.textContent = '·'; dot.setAttribute('aria-hidden', 'true'); flow.append(dot); } const chip = document.createElement('span'); chip.textContent = state; flow.append(chip); }); panel.append(label, h3, p, flow);
 });
@@ -138,7 +138,7 @@ function filterSources() {
  matches.forEach(file => { const b = document.createElement('button'); b.textContent = file.name; b.title = file.label; b.dataset.path = file.path; b.setAttribute('aria-current', String(file.path === activeSource)); b.addEventListener('click', () => openSource(file)); list.append(b); });
 }
 async function initSource() {
- try { const bundled = document.querySelector('#bundled-sources'); if (bundled) sourceFiles = JSON.parse(bundled.textContent); else { const response = await fetch('source-index.json'); if (!response.ok) throw new Error('No source index'); sourceFiles = await response.json(); } filterSources(); const first = sourceFiles.find(f => f.name === 'heat_audio.c' && f.group === 'peripheral'); if (first) openSource(first); }
+ try { const bundled = document.querySelector('#bundled-sources'); if (bundled) sourceFiles = JSON.parse(bundled.textContent); else { const response = await fetch('source-index.json'); if (!response.ok) throw new Error('No source index'); sourceFiles = await response.json(); } filterSources(); const first = sourceFiles.find(f => f.name === 'GameSM.c' && f.group === 'integrated'); if (first) openSource(first); }
  catch { $('#source-files').textContent = 'Use a web server or GitHub Pages for source browsing. The full PDF appendix is always linked above.'; }
 }
 $('#source-group').addEventListener('change', filterSources); $('#source-search').addEventListener('input', filterSources); initSource();

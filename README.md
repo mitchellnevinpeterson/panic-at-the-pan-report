@@ -82,7 +82,7 @@ The cooking demo is an illustration. Its icons, immediate zone changes and brows
 
 The website transparently marks these as pending:
 
-1. Po-Yun's final grading firmware push, final ingredients/recipes, scoring and exact timing.
+1. Integrated source is now included from wire_management at 0ffeea5; confirm the demonstrated revision.
 2. The installed UART settings and application message format. Checkpoint 2 proposes UART2, 3.3 V, 115200 baud, 8N1, crossed TX pin 21 / RX pin 17. It is labeled a proposal.
 3. Parts-price subtotal is $103.86, excluding tax/shipping. This includes the $9.99 sensor pack, $12.88 LCD, $24.95 e-paper display and $10 Gushers. The speaker was free. Other unlisted components were reclaimed from lab recycling bins or personal past-project stock with $0 new spending; final quantities, source categories and non-exempt market values still need reconciliation.
 4. Final vector schematics and remaining mechanism dimensions. The supplied envelope is 51 × 36.5 × 14 cm; the site preserves its 1 cm difference from the 50 cm footprint specification.

@@ -1,0 +1,12 @@
+#ifndef PANIC_DRIVER_STATUS_H
+#define PANIC_DRIVER_STATUS_H
+
+typedef enum {
+    DRIVER_OK = 0,
+    DRIVER_BUSY,
+    DRIVER_NOT_CONFIGURED,
+    DRIVER_INVALID_ARGUMENT,
+    DRIVER_FAULT
+} DriverStatus_t;
+
+#endif

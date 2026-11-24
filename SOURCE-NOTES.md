@@ -1,11 +1,11 @@
 # Source and evidence notes
 
-The available team repository snapshot is commit b0ac9b1, an older scaffold whose service handlers contain TODOs. The separate peripheral source is earlier LCD/sensor/audio development code. Po-Yun's final grading firmware push is pending according to the team.
+Integrated source: pycheng1128/panic-at-the-pan, branch wire_management, commit 0ffeea5175c98188fd3cb9563f022e43b71978c3, retrieved November 24, 2026. The repository README identifies checked-off (b8775301fabeb2aa1b48d9509523d2fc86319a38) as hardware verified and says later changes need a hardware run. The report keeps those revisions distinct. Both source ZIPs are available without access to the private team repository.
 
-The website's source viewer prints actual supplied files without rewriting their contents. Existing course/framework and lab attribution is retained. No new blanket license is applied to those files.
+The source viewer and appendix preserve original C/header content and course/framework/reused-driver notices. GameButtonsPIC1 + GameButtonsPIC2 are the integrated targets; older scaffold and peripheral prototype files remain historical records. The existing game-button and E-ink host tests passed in this report session; no new physical tests or device flashing were performed.
 
-Final game behavior, controller roles, contributors, grading outcome, overall dimensions, wood stock and the $10 Gushers purchase come from the team's November 23 account. Assembly photographs, CAD rendering and a real demonstration video were supplied in the project's Photos folder and the attached CAD image. The film is compressed for web playback; it is not labeled as a grading-session record.
+Team contribution cards and report attribution use equal formatting and alphabetical surname order. All three members share credit for game flow and integration. Actual subsystem responsibilities and purchase records are preserved.
 
-Checkpoint 2 supplies the newer two-controller schematic images and proposed UART design. The final code is still needed for protocol confirmation. The narrative PDF and code appendix are the existing revised report deliverables. No missing prices, recipe mappings, test results or grade records were fabricated.
+Photos/CAD/video, dimensions, purchases and grading outcome are team-supplied evidence. The film is a demonstration, not independently identified as grading footage. Remaining gaps include as-built schematics, mechanism dimensions, reused-part valuation and measured trials.
 
-The illustrative browser-control demo is separately authored HTML/CSS/JS. It does not run PIC32 code or represent verified final recipe/scoring behavior. The Web Audio illustration is newly synthesized in the browser and does not play the actual firmware sample stream.
+The browser demo is an illustrative HTML/CSS/JS model using historical prototype thresholds and newly synthesized Web Audio; it is not the integrated firmware's sample stream or a grading simulator.
