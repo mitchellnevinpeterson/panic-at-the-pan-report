@@ -84,7 +84,7 @@ The website transparently marks these as pending:
 
 1. Po-Yun's final grading firmware push, final ingredients/recipes, scoring and exact timing.
 2. The installed UART settings and application message format. Checkpoint 2 proposes UART2, 3.3 V, 115200 baud, 8N1, crossed TX pin 21 / RX pin 17. It is labeled a proposal.
-3. Remaining hardware prices, final quantities, source categories and market-value BOM. Known spending is $56.87, including Mitch's $10 Gushers purchase.
+3. Parts-price subtotal is $103.86, excluding tax/shipping. This includes the $9.99 sensor pack, $12.88 LCD, $24.95 e-paper display and $10 Gushers. The speaker was free. Other unlisted components were reclaimed from lab recycling bins or personal past-project stock with $0 new spending; final quantities, source categories and non-exempt market values still need reconciliation.
 4. Final vector schematics and remaining mechanism dimensions. The supplied envelope is 51 × 36.5 × 14 cm; the site preserves its 1 cm difference from the 50 cm footprint specification.
 
 The team reports complete operation and full grading credit. No grade sheet or quantitative reliability log was supplied. The site records that outcome as team-reported.
