@@ -8,4 +8,4 @@ Team contribution cards and report attribution use equal formatting and alphabet
 
 Photos/CAD/video, dimensions, purchases and grading outcome are team-supplied evidence. The film is a demonstration, not independently identified as grading footage. Remaining gaps include as-built schematics, mechanism dimensions, reused-part valuation and measured trials.
 
-The browser demo is an illustrative HTML/CSS/JS model using historical prototype thresholds and newly synthesized Web Audio; it is not the integrated firmware's sample stream or a grading simulator.
+The browser demo is an illustrative HTML/CSS/JS model with a 60-second round, recipe selection, continuous target-based heat, animated pan flips, simplified ingredient/heat/flip scoring and an LED matrix preview. It omits firmware intro delays, inactivity recovery and joystick-circle scoring. Web Audio is synthesized separately; this is not the actual PIC32 sample stream or a grading simulator.
