@@ -1,0 +1,1293 @@
+(kicad_sch (version 20250114) (generator "eeschema") (uuid 1f117d32-ca10-541f-bae6-6354c1d02aca) (paper "A3")
+(title_block (title "Actuators - spatula positioning and treat release") (date "2026-11-09") (rev "A1") (company "ME218a Team 12") (comment 1 "Draft: component choices, GPIO and power budget TBD."))
+(lib_symbols (symbol "Actuator:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Actuator:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Actuator:C_Polarized"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_Polarized_0_1"
+			(rectangle
+				(start -2.286 0.508)
+				(end 2.286 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 2.286) (xy -0.762 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.794) (xy -1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.286 -0.508)
+				(end -2.286 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "C_Polarized_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Actuator:Conn_01x02"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_01x02_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Actuator:Conn_01x04"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_01x04_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Actuator:Conn_01x06"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_01x06_1_1"
+			(rectangle
+				(start -1.27 6.35)
+				(end 1.27 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -7.493)
+				(end 0 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "Pin_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Actuator:SW_SPST"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch lever"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_SPST_0_0"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.254) (xy 1.524 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SPST_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Actuator:DRV8825_Carrier" (pin_names (offset 0.8)) (pin_numbers hide) (exclude_from_sim yes) (in_bom no) (on_board no)
+(property "Reference" "U" (at 0 40.64 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "DRV8825_Carrier" (at 0 38.1 0) (effects (font (size 1.27 1.27)) (justify left) ))
+(symbol "DRV8825_Carrier_0_1" (rectangle (start -25.4 35.56) (end 25.4 -35.56) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "DRV8825_Carrier_1_1" (pin passive line (at -30.48 25.4 0) (length 5.08) (name "STEP" (effects (font (size 1.1 1.1)) )) (number "STEP" (effects (font (size 1.0 1.0)) )))(pin passive line (at -30.48 17.779999999999998 0) (length 5.08) (name "DIR" (effects (font (size 1.1 1.1)) )) (number "DIR" (effects (font (size 1.0 1.0)) )))(pin passive line (at -30.48 10.159999999999998 0) (length 5.08) (name "nSLEEP" (effects (font (size 1.1 1.1)) )) (number "nSLEEP" (effects (font (size 1.0 1.0)) )))(pin passive line (at -30.48 2.539999999999999 0) (length 5.08) (name "nRESET" (effects (font (size 1.1 1.1)) )) (number "nRESET" (effects (font (size 1.0 1.0)) )))(pin passive line (at -30.48 -5.080000000000002 0) (length 5.08) (name "nENBL" (effects (font (size 1.1 1.1)) )) (number "nENBL" (effects (font (size 1.0 1.0)) )))(pin passive line (at -30.48 -12.700000000000003 0) (length 5.08) (name "MODE0" (effects (font (size 1.1 1.1)) )) (number "MODE0" (effects (font (size 1.0 1.0)) )))(pin passive line (at -30.48 -20.32 0) (length 5.08) (name "MODE1" (effects (font (size 1.1 1.1)) )) (number "MODE1" (effects (font (size 1.0 1.0)) )))(pin passive line (at -30.48 -27.940000000000005 0) (length 5.08) (name "MODE2" (effects (font (size 1.1 1.1)) )) (number "MODE2" (effects (font (size 1.0 1.0)) )))(pin passive line (at 30.48 25.4 180) (length 5.08) (name "A1" (effects (font (size 1.1 1.1)) )) (number "A1" (effects (font (size 1.0 1.0)) )))(pin passive line (at 30.48 15.239999999999998 180) (length 5.08) (name "A2" (effects (font (size 1.1 1.1)) )) (number "A2" (effects (font (size 1.0 1.0)) )))(pin passive line (at 30.48 5.079999999999998 180) (length 5.08) (name "B1" (effects (font (size 1.1 1.1)) )) (number "B1" (effects (font (size 1.0 1.0)) )))(pin passive line (at 30.48 -5.080000000000002 180) (length 5.08) (name "B2" (effects (font (size 1.1 1.1)) )) (number "B2" (effects (font (size 1.0 1.0)) )))(pin passive line (at 30.48 -15.240000000000002 180) (length 5.08) (name "nFAULT" (effects (font (size 1.1 1.1)) )) (number "nFAULT" (effects (font (size 1.0 1.0)) )))(pin passive line (at 0 40.64 270) (length 5.08) (name "VMOT" (effects (font (size 1.1 1.1)) )) (number "VMOT" (effects (font (size 1.0 1.0)) )))(pin passive line (at 0 -40.64 90) (length 5.08) (name "GND" (effects (font (size 1.1 1.1)) )) (number "GND" (effects (font (size 1.0 1.0)) )))))(symbol "Actuator:Bipolar_Stepper" (pin_names (offset 0.8)) (pin_numbers hide) (exclude_from_sim yes) (in_bom no) (on_board no)
+(property "Reference" "U" (at 0 25.4 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "Bipolar_Stepper" (at 0 22.86 0) (effects (font (size 1.27 1.27)) (justify left) ))
+(symbol "Bipolar_Stepper_0_1" (rectangle (start -15.24 20.32) (end 15.24 -20.32) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "Bipolar_Stepper_1_1" (pin passive line (at -20.32 15.24 0) (length 5.08) (name "A1" (effects (font (size 1.1 1.1)) )) (number "A1" (effects (font (size 1.0 1.0)) )))(pin passive line (at -20.32 5.08 0) (length 5.08) (name "A2" (effects (font (size 1.1 1.1)) )) (number "A2" (effects (font (size 1.0 1.0)) )))(pin passive line (at -20.32 -5.08 0) (length 5.08) (name "B1" (effects (font (size 1.1 1.1)) )) (number "B1" (effects (font (size 1.0 1.0)) )))(pin passive line (at -20.32 -15.24 0) (length 5.08) (name "B2" (effects (font (size 1.1 1.1)) )) (number "B2" (effects (font (size 1.0 1.0)) )))))(symbol "Actuator:Positional_Servo" (pin_names (offset 0.8)) (pin_numbers hide) (exclude_from_sim yes) (in_bom no) (on_board no)
+(property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "Positional_Servo" (at 0 15.24 0) (effects (font (size 1.27 1.27)) (justify left) ))
+(symbol "Positional_Servo_0_1" (rectangle (start -20.32 12.7) (end 20.32 -12.7) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "Positional_Servo_1_1" (pin passive line (at -25.4 7.62 0) (length 5.08) (name "Signal" (effects (font (size 1.1 1.1)) )) (number "SIG" (effects (font (size 1.0 1.0)) )))(pin passive line (at -25.4 0 0) (length 5.08) (name "5V" (effects (font (size 1.1 1.1)) )) (number "V+" (effects (font (size 1.0 1.0)) )))(pin passive line (at -25.4 -7.62 0) (length 5.08) (name "GND" (effects (font (size 1.1 1.1)) )) (number "GND" (effects (font (size 1.0 1.0)) )))))(symbol "Actuator:SN74AHCT1G125" (pin_names (offset 0.8))  (exclude_from_sim yes) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "SN74AHCT1G125" (at 0 12.7 0) (effects (font (size 1.27 1.27)) (justify left) ))
+(symbol "SN74AHCT1G125_0_1" (rectangle (start -10.16 10.16) (end 10.16 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "SN74AHCT1G125_1_1" (pin input line (at -15.24 -5.08 0) (length 5.08) (name "~{OE}" (effects (font (size 1.1 1.1)) )) (number "1" (effects (font (size 1.0 1.0)) )))(pin input line (at -15.24 5.08 0) (length 5.08) (name "A" (effects (font (size 1.1 1.1)) )) (number "2" (effects (font (size 1.0 1.0)) )))(pin power_in line (at 0 -15.24 90) (length 5.08) (name "GND" (effects (font (size 1.1 1.1)) )) (number "3" (effects (font (size 1.0 1.0)) )))(pin tri_state line (at 15.24 5.08 180) (length 5.08) (name "Y" (effects (font (size 1.1 1.1)) )) (number "4" (effects (font (size 1.0 1.0)) )))(pin power_in line (at 0 15.24 270) (length 5.08) (name "VCC" (effects (font (size 1.1 1.1)) )) (number "5" (effects (font (size 1.0 1.0)) ))))))
+(text "04  ACTUATORS | SPATULA + TREAT DISPENSER" (at 17.78 16.51 0) (effects (font (size 2.5 2.5)) (justify left)) (uuid 91eeb715-e613-55a4-b4c9-4219287cc9ba))
+(text "A1 PROPOSAL - motor models / mechanisms TBD; PIC pins reserved for STEP/DIR interface." (at 17.78 24.13 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid de14414f-9b6a-5cb5-a1ce-46728ff4558b))
+(symbol (lib_id "Actuator:Conn_01x06") (at 370.84 43.18 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid fb1d83f3-998a-5720-8d84-74ec491e5fc0)
+(property "Reference" "J40" (at 375.92 36.83 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "PIC harness (proposed)" (at 375.92 39.37 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 370.84 43.18 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a" (reference "J40") (unit 1)))))
+(wire (pts (xy 365.76 38.1) (xy 330.2 38.1)) (stroke (width 0) (type default)) (uuid 58284985-a5f8-5b00-9ba4-1c9995166501))
+(global_label "SPATULA_STEP" (shape input) (at 330.2 38.1 180) (effects (font (size 1 1)) (justify right)) (uuid 4be349ed-68ab-42a4-a337-7e1c0018664d))
+(wire (pts (xy 365.76 40.64) (xy 330.2 40.64)) (stroke (width 0) (type default)) (uuid 9814871d-a138-5433-86e5-89a740a6262e))
+(global_label "SPATULA_DIR" (shape input) (at 330.2 40.64 180) (effects (font (size 1 1)) (justify right)) (uuid 5d3301dd-8222-4473-964c-af961a489116))
+(wire (pts (xy 365.76 43.18) (xy 330.2 43.18)) (stroke (width 0) (type default)) (uuid 73a3ff25-673f-58a9-80ff-ef9b882b942f))
+(global_label "SPATULA_WAKE" (shape input) (at 330.2 43.18 180) (effects (font (size 1 1)) (justify right)) (uuid de2eb678-ffe9-4f64-ad54-221f2383f21e))
+(wire (pts (xy 365.76 45.72) (xy 330.2 45.72)) (stroke (width 0) (type default)) (uuid 4fd2b117-9d51-56b8-8a26-da77f13bdc01))
+(global_label "SPATULA_HOME" (shape input) (at 330.2 45.72 180) (effects (font (size 1 1)) (justify right)) (uuid 259e8dbe-e71f-493b-b628-bdc51102b659))
+(wire (pts (xy 365.76 48.26) (xy 330.2 48.26)) (stroke (width 0) (type default)) (uuid 34518101-3001-530c-bf1f-f5606a6cb9b2))
+(global_label "TREAT_PWM" (shape input) (at 330.2 48.26 180) (effects (font (size 1 1)) (justify right)) (uuid 0a3a1508-db96-4e23-9eac-b8a072e5d7e5))
+(wire (pts (xy 365.76 50.8) (xy 330.2 50.8)) (stroke (width 0) (type default)) (uuid b77f7e4d-7fa5-5b36-9cf4-8c0811ab5444))
+(global_label "GNDREF" (shape input) (at 330.2 50.8 180) (effects (font (size 1.1 1.1)) (justify right)) (uuid a101d156-2cc4-5522-9e89-49b9ff46b203))
+(text "SPATULA: STEPPER + HOME REFERENCE (PROPOSED)" (at 17.78 36.83 0) (effects (font (size 1.65 1.65)) (justify left)) (uuid 54b75174-42de-5e49-a56f-896348711641))
+(symbol (lib_id "Actuator:DRV8825_Carrier") (at 139.7 88.9 0) (unit 1) (exclude_from_sim yes) (in_bom no) (on_board no) (dnp no) (uuid 0b1c506d-36b2-503e-aa57-e7838a7f7363)
+(property "Reference" "U20" (at 118.11 43.18 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "Pololu 2133 candidate" (at 118.11 45.72 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 139.7 88.9 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a" (reference "U20") (unit 1)))))
+(wire (pts (xy 139.7 48.26) (xy 139.7 40.64)) (stroke (width 0) (type default)) (uuid 80081257-81a9-5688-a39f-7da29a44cc14))
+(global_label "+12V_LOAD" (shape input) (at 139.7 40.64 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 3e32888f-f4c9-572c-bdff-9711ed3149bd))
+(wire (pts (xy 139.7 129.54) (xy 139.7 137.16)) (stroke (width 0) (type default)) (uuid b0311f06-7173-56e7-a072-b4d89b4d7ec5))
+(global_label "GNDREF" (shape input) (at 139.7 137.16 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid ca841197-3576-5774-bd0b-f878f7c8496a))
+(wire (pts (xy 109.22 63.5) (xy 83.82 63.5)) (stroke (width 0) (type default)) (uuid 6b25d744-a08f-5df1-a612-82eaaa39dcc1))
+(global_label "SPATULA_STEP" (shape input) (at 83.82 63.5 180) (effects (font (size 1 1)) (justify right)) (uuid 20419ffd-fbf0-4cf8-b16f-aa30f373dccd))
+(wire (pts (xy 109.22 71.12) (xy 83.82 71.12)) (stroke (width 0) (type default)) (uuid 4fd615e8-4089-5799-97b5-441f3c276215))
+(global_label "SPATULA_DIR" (shape input) (at 83.82 71.12 180) (effects (font (size 1 1)) (justify right)) (uuid e2bd0b91-72b2-41fc-995b-bbdfc8c2ae96))
+(wire (pts (xy 109.22 78.74) (xy 83.82 78.74)) (stroke (width 0) (type default)) (uuid f0f0bb54-5714-5748-bbe5-f5685d0d6d07))
+(global_label "SPATULA_WAKE" (shape input) (at 83.82 78.74 180) (effects (font (size 1 1)) (justify right)) (uuid fe732ca1-75f7-4df1-aa05-eeb08b52e936))
+(wire (pts (xy 109.22 86.36) (xy 83.82 86.36)) (stroke (width 0) (type default)) (uuid 11c7f010-e75a-5d72-ae28-76a3acc87875))
+(global_label "+3.3V" (shape input) (at 83.82 86.36 180) (effects (font (size 1.1 1.1)) (justify right)) (uuid b2971ebd-23af-5511-960e-2ab322febe77))
+(wire (pts (xy 109.22 93.98) (xy 83.82 93.98)) (stroke (width 0) (type default)) (uuid 600d5b83-77b8-5e5c-8377-75d7c7f30ac5))
+(global_label "GNDREF" (shape input) (at 83.82 93.98 180) (effects (font (size 1.1 1.1)) (justify right)) (uuid bf1e39c2-d323-5148-87eb-dc9e186f65d9))
+(wire (pts (xy 109.22 101.6) (xy 83.82 101.6)) (stroke (width 0) (type default)) (uuid 2a98f686-0306-598b-9959-f44a02f593a5))
+(global_label "GNDREF" (shape input) (at 83.82 101.6 180) (effects (font (size 1.1 1.1)) (justify right)) (uuid 1bdb9743-d187-5c94-9242-91e0305fed60))
+(wire (pts (xy 109.22 109.22) (xy 83.82 109.22)) (stroke (width 0) (type default)) (uuid b41943b3-b3f5-5feb-b093-90bcd1bdbca7))
+(global_label "GNDREF" (shape input) (at 83.82 109.22 180) (effects (font (size 1.1 1.1)) (justify right)) (uuid bc1c375a-1ab3-5fef-9a19-79519912db3c))
+(wire (pts (xy 109.22 116.84) (xy 83.82 116.84)) (stroke (width 0) (type default)) (uuid 786f71eb-4866-51df-843c-82d8b55b2dc3))
+(global_label "GNDREF" (shape input) (at 83.82 116.84 180) (effects (font (size 1.1 1.1)) (justify right)) (uuid 0f37a6e5-9db1-5bd5-a97e-5edf2faa18af))
+(symbol (lib_id "Actuator:Bipolar_Stepper") (at 228.6 78.74 0) (unit 1) (exclude_from_sim yes) (in_bom no) (on_board no) (dnp no) (uuid f64c0dfa-06de-59bc-930c-aa3d5b1867d6)
+(property "Reference" "M20" (at 210.82 48.26 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "Motor / torque TBD" (at 210.82 50.8 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 228.6 78.74 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a" (reference "M20") (unit 1)))))
+(wire (pts (xy 170.18 63.5) (xy 208.28 63.5)) (stroke (width 0) (type default)) (uuid a74cdf52-3e01-5a0c-b39a-7e6ac4ba7282))
+(wire (pts (xy 170.18 73.66) (xy 208.28 73.66)) (stroke (width 0) (type default)) (uuid 0e410227-c741-591d-9be4-b450ca4d2b00))
+(wire (pts (xy 170.18 83.82) (xy 208.28 83.82)) (stroke (width 0) (type default)) (uuid ebb811ff-25a2-5f52-b3bf-556f8409cde1))
+(wire (pts (xy 170.18 93.98) (xy 208.28 93.98)) (stroke (width 0) (type default)) (uuid 6e3e53f0-ff4b-52fc-b77d-7a2b8ce40b8b))
+(no_connect (at 170.18 104.14) (uuid 8a408b5a-b543-5d8a-9237-22861092dae5))
+(text "Full-step mode shown.\nChoose bipolar motor; set current limit\nto its winding rating before powering.\nHome on startup; then count steps.\nMissed steps require re-homing.\nJoystick center commands saved home." (at 269.24 66.04 0) (effects (font (size 1.4 1.4)) (justify left)) (uuid 07d70983-321e-5061-b963-f01640a16434))
+(symbol (lib_id "Actuator:C_Polarized") (at 190.5 124.46 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid 62da67cb-5948-51c2-954d-70f15a6057d7)
+(property "Reference" "C40" (at 195.58 121.92 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "100u / 35V electrolytic" (at 195.58 124.46 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 190.5 124.46 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a" (reference "C40") (unit 1)))))
+(wire (pts (xy 190.5 120.65) (xy 190.5 115.57)) (stroke (width 0) (type default)) (uuid 2ffd83ee-0fd7-50bf-8cc6-a0150e9bb492))
+(wire (pts (xy 190.5 128.27) (xy 190.5 133.35)) (stroke (width 0) (type default)) (uuid 33196bd6-cea6-57bb-990d-c92702a82458))
+(global_label "+12V_LOAD" (shape input) (at 190.5 115.57 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 9dfd8d8c-3d34-58af-8f8e-0c5341ef26fd))
+(global_label "GNDREF" (shape input) (at 190.5 133.35 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 5924a856-796e-5d22-b8d9-70829ce97ce9))
+(symbol (lib_id "Actuator:R") (at 35.56 71.12 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid c8a3f494-ebab-55d0-8fb7-a8beac17dd5e)
+(property "Reference" "R40" (at 40.64 68.58 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "10k (default asleep)" (at 40.64 71.12 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 35.56 71.12 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a" (reference "R40") (unit 1)))))
+(wire (pts (xy 35.56 67.31) (xy 35.56 62.23)) (stroke (width 0) (type default)) (uuid a61d315c-6d91-5ccb-9508-fb6399b5f04a))
+(wire (pts (xy 35.56 74.93) (xy 35.56 80.01)) (stroke (width 0) (type default)) (uuid ce59b0ef-9865-5613-b97a-287d51e95385))
+(global_label "SPATULA_WAKE" (shape input) (at 35.56 62.23 0) (effects (font (size 1 1)) (justify left)) (uuid db7f6c2b-4af7-416a-8ea3-26c2054f7a22))
+(global_label "GNDREF" (shape input) (at 35.56 80.01 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid faa2f01d-1c55-5137-a18f-19feaaa98ced))
+(symbol (lib_id "Actuator:R") (at 35.56 115.57 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid d937a4fc-1fcb-5527-9a60-95536a69c1c3)
+(property "Reference" "R41" (at 40.64 113.03 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "10k" (at 40.64 115.57 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 35.56 115.57 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a" (reference "R41") (unit 1)))))
+(wire (pts (xy 35.56 111.76) (xy 35.56 106.68)) (stroke (width 0) (type default)) (uuid cf81d59f-d9c2-5e14-930b-d4529f452e42))
+(wire (pts (xy 35.56 119.38) (xy 35.56 124.46)) (stroke (width 0) (type default)) (uuid c33923e2-9958-5353-bac5-8b2795501df6))
+(global_label "+3.3V" (shape input) (at 35.56 106.68 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 9cb1d345-83dd-5318-90e1-6089bf6c7ccb))
+(global_label "SPATULA_HOME" (shape input) (at 35.56 124.46 180) (effects (font (size 1 1)) (justify right)) (uuid 91cb40a4-9841-41e6-8703-d9365df8119e))
+(symbol (lib_id "Actuator:SW_SPST") (at 66.04 124.46 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid 3ab989e6-63ec-5fc9-9aa7-c992ddaa14d2)
+(property "Reference" "SW40" (at 57.15 130.81 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "Home contact NO" (at 57.15 133.35 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 66.04 124.46 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a" (reference "SW40") (unit 1)))))
+(wire (pts (xy 60.96 124.46) (xy 35.56 124.46)) (stroke (width 0) (type default)) (uuid 17760965-9bbd-5567-9634-f7ec3e290cf4))
+(junction (at 35.56 124.46) (diameter 0) (color 0 0 0 0) (uuid e1f5d12a-3b62-5685-bf3e-b567ef240c49))
+(wire (pts (xy 71.12 124.46) (xy 78.74 124.46)) (stroke (width 0) (type default)) (uuid 980dafee-66db-506c-b288-84d2f044dc7f))
+(global_label "GNDREF" (shape input) (at 78.74 124.46 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 2cc1fafc-38eb-5f1b-bcf1-c52ac9e77ec2))
+(text "HOME = low at reference. Debounce in firmware.\nC40 close to VMOT/GND. No hot-plugging the motor.\nWake delay >= 1.7 ms; STEP high/low >= 1.9 us." (at 228.6 119.38 0) (effects (font (size 1.3 1.3)) (justify left)) (uuid e6d1ec41-5463-56c7-8647-1e7b0ec4088d))
+(text "TREAT RELEASE: 5 V POSITIONAL SERVO (PROPOSED)" (at 17.78 156.21 0) (effects (font (size 1.65 1.65)) (justify left)) (uuid f2331d65-9da4-55a6-8d03-a784fab28e85))
+(symbol (lib_id "Actuator:SN74AHCT1G125") (at 139.7 190.5 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid 3f15de00-c151-54bc-838e-46c455f563e7)
+(property "Reference" "U21" (at 125.73 170.18 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "SN74AHCT1G125" (at 125.73 172.72 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 139.7 190.5 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a" (reference "U21") (unit 1)))))
+(wire (pts (xy 124.46 185.42) (xy 88.9 185.42)) (stroke (width 0) (type default)) (uuid 83dc7c1f-0a68-59af-97b5-535d6e439104))
+(global_label "TREAT_PWM" (shape input) (at 88.9 185.42 180) (effects (font (size 1 1)) (justify right)) (uuid 8053909b-abc2-486d-8447-c21846b92cee))
+(wire (pts (xy 124.46 195.58) (xy 111.76 195.58)) (stroke (width 0) (type default)) (uuid fb8a097f-fa1c-54ea-b388-f900c2f35bd5))
+(global_label "GNDREF" (shape input) (at 111.76 195.58 180) (effects (font (size 1.1 1.1)) (justify right)) (uuid cc023a59-6f07-5089-821d-277a3d9f4527))
+(wire (pts (xy 139.7 175.26) (xy 139.7 162.56)) (stroke (width 0) (type default)) (uuid 28a6184a-3f1e-5974-a8b4-8b878cb12dfd))
+(global_label "+5V_LOAD" (shape input) (at 139.7 162.56 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 5dd9f144-6098-5e28-aaf4-4d7db1ccf770))
+(wire (pts (xy 139.7 205.74) (xy 139.7 213.36)) (stroke (width 0) (type default)) (uuid ed612afb-150a-5fab-9dc1-8a557bfd568a))
+(global_label "GNDREF" (shape input) (at 139.7 213.36 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 3f110355-73c1-5abb-97b4-ac4df4003913))
+(symbol (lib_id "Actuator:Positional_Servo") (at 236.22 193.04 0) (unit 1) (exclude_from_sim yes) (in_bom no) (on_board no) (dnp no) (uuid 910c4f14-570b-588a-a101-55220837d5c4)
+(property "Reference" "M21" (at 218.44 170.18 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "Servo model TBD" (at 218.44 172.72 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 236.22 193.04 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a" (reference "M21") (unit 1)))))
+(wire (pts (xy 154.94 185.42) (xy 210.82 185.42)) (stroke (width 0) (type default)) (uuid 93b2e5e7-05c7-5880-bf16-5e5fb8107b10))
+(label "TREAT_PWM_5V" (at 165.1 185.42 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid f8411589-5e7c-5725-94a0-60b889b5fe16))
+(wire (pts (xy 210.82 193.04) (xy 185.42 193.04)) (stroke (width 0) (type default)) (uuid 53a20c6b-5f97-50b7-800f-de2a40be9a7f))
+(global_label "+5V_LOAD" (shape input) (at 185.42 193.04 180) (effects (font (size 1.1 1.1)) (justify right)) (uuid 43d72e02-4664-5e91-baae-e9ec6920c6cc))
+(wire (pts (xy 210.82 200.66) (xy 185.42 200.66)) (stroke (width 0) (type default)) (uuid 17bc7f7e-c480-54ab-93ff-3d7e02177935))
+(global_label "GNDREF" (shape input) (at 185.42 200.66 180) (effects (font (size 1.1 1.1)) (justify right)) (uuid 3a775aed-65c2-56f7-8fa3-f23c00f99d39))
+(symbol (lib_id "Actuator:R") (at 40.64 190.5 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid 0ba11fdc-072f-5f6f-80d8-467a5064a8b2)
+(property "Reference" "R42" (at 45.72 187.96 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "10k" (at 45.72 190.5 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 40.64 190.5 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a" (reference "R42") (unit 1)))))
+(wire (pts (xy 40.64 186.69) (xy 40.64 181.61)) (stroke (width 0) (type default)) (uuid 03471e28-bdf9-51ed-9c5c-286dc4f104bd))
+(wire (pts (xy 40.64 194.31) (xy 40.64 199.39)) (stroke (width 0) (type default)) (uuid 12b360f5-f47f-5a5a-8c92-cb3533218ab3))
+(global_label "TREAT_PWM" (shape input) (at 40.64 181.61 0) (effects (font (size 1 1)) (justify left)) (uuid b18e508c-148f-4d24-9d33-678eb6672229))
+(global_label "GNDREF" (shape input) (at 40.64 199.39 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid b91894a1-b88f-5ed0-9ec7-775d28c6d53a))
+(symbol (lib_id "Actuator:C") (at 88.9 220.98 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid 0402c31a-f48b-59c6-86b3-26ee69e6a7dd)
+(property "Reference" "C41" (at 93.98 218.44 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "100n / 16V" (at 93.98 220.98 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 88.9 220.98 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a" (reference "C41") (unit 1)))))
+(wire (pts (xy 88.9 217.17) (xy 88.9 212.09)) (stroke (width 0) (type default)) (uuid 9e867082-78eb-595b-9f17-6d5b8f390f43))
+(wire (pts (xy 88.9 224.79) (xy 88.9 229.87)) (stroke (width 0) (type default)) (uuid 963da9d7-57d3-5507-a981-c9b574aac1b4))
+(global_label "+5V_LOAD" (shape input) (at 88.9 212.09 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid baf45f42-072d-5c6b-85e0-d90ba9f385a7))
+(global_label "GNDREF" (shape input) (at 88.9 229.87 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 53e2df25-c135-51ce-b25f-a23994e0b4d2))
+(symbol (lib_id "Actuator:C_Polarized") (at 210.82 228.6 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid a5930d82-150b-57f4-b142-107c88fab00e)
+(property "Reference" "C42" (at 215.9 226.06 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "470u / 10V provisional" (at 215.9 228.6 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 210.82 228.6 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a" (reference "C42") (unit 1)))))
+(wire (pts (xy 210.82 224.79) (xy 210.82 219.71)) (stroke (width 0) (type default)) (uuid 94ed429f-b7aa-5849-9513-d15271e1bacc))
+(wire (pts (xy 210.82 232.41) (xy 210.82 237.49)) (stroke (width 0) (type default)) (uuid c9a1e8fa-c0b2-582e-8c56-e7b058bbccd1))
+(global_label "+5V_LOAD" (shape input) (at 210.82 219.71 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid e914b049-2be6-5d44-a076-c80be0b3dadc))
+(global_label "GNDREF" (shape input) (at 210.82 237.49 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid f0fc5e03-d924-5c97-8648-70e5ac0b1378))
+(text "U21: 3.3 V -> 5 V signal only.\nSOT-23/SC70 part needs an adapter.\nC41 close to U21; C42 near servo.\nSelect 5 V positional servo; verify travel,\nstall current, pulse range and pouch gate.\nSeparate power wiring, common ground." (at 284.48 190.5 0) (effects (font (size 1.35 1.35)) (justify left)) (uuid bae229e7-3d7e-5154-93d3-26cf6710c6ba))
+(text "INTERFACES / DRAFT LIMITS" (at 17.78 245.11 0) (effects (font (size 1.55 1.55)) (justify left)) (uuid 6912039e-f39f-5abb-a847-adf11d229d25))
+(text "Spatula: STEP, DIR, WAKE outputs + HOME input (4 signals). Treat: PWM output (1). PIC pins: see docs/pin_map.md.\nMCP23S17 handles switches / flip / Finish LED. Independent SPI1/SPI2 use 17 GPIO. Treat PWM: RB5/p14/OC2.\n5 V / 3 A is shared with displays/audio; 12 V / 5 A is shared upstream. Motor current, protection and wiring ratings TBD.\nU20/M20/M21 ports are logical assembly labels, not connector pin numbers. No flame actuator. See actuators.md for sources." (at 17.78 258.445 0) (effects (font (size 1.25 1.25)) (justify left)) (uuid 97b5bb5d-4997-5b95-9ecd-fa1d695e6323))
+(embedded_fonts no))

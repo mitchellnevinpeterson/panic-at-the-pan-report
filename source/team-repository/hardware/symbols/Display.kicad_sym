@@ -1,0 +1,218 @@
+(kicad_symbol_lib (version 20241209) (generator "kicad_symbol_editor")
+(symbol "74ACT244" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 38.1 0) (effects (font (size 1.27 1.27)) ))
+(property "Value" "74ACT244" (at 0 -38.1 0) (effects (font (size 1.27 1.27)) ))
+(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74act244.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(symbol "74ACT244_0_1" (rectangle (start -15.24 30.48) (end 15.24 -30.48) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "74ACT244_1_1" (pin input line (at -20.32 22.86 0) (length 5.08) (name "1A1" (effects (font (size 1.1 1.1)) )) (number "2" (effects (font (size 1.0 1.0)) )))(pin input line (at -20.32 17.78 0) (length 5.08) (name "1A2" (effects (font (size 1.1 1.1)) )) (number "4" (effects (font (size 1.0 1.0)) )))(pin input line (at -20.32 12.7 0) (length 5.08) (name "1A3" (effects (font (size 1.1 1.1)) )) (number "6" (effects (font (size 1.0 1.0)) )))(pin input line (at -20.32 7.62 0) (length 5.08) (name "1A4" (effects (font (size 1.1 1.1)) )) (number "8" (effects (font (size 1.0 1.0)) )))(pin input line (at -20.32 2.54 0) (length 5.08) (name "2A1" (effects (font (size 1.1 1.1)) )) (number "11" (effects (font (size 1.0 1.0)) )))(pin input line (at -20.32 -2.54 0) (length 5.08) (name "2A2" (effects (font (size 1.1 1.1)) )) (number "13" (effects (font (size 1.0 1.0)) )))(pin input line (at -20.32 -7.62 0) (length 5.08) (name "2A3" (effects (font (size 1.1 1.1)) )) (number "15" (effects (font (size 1.0 1.0)) )))(pin input line (at -20.32 -12.7 0) (length 5.08) (name "2A4" (effects (font (size 1.1 1.1)) )) (number "17" (effects (font (size 1.0 1.0)) )))(pin input line (at -20.32 -20.32 0) (length 5.08) (name "~{1OE}" (effects (font (size 1.1 1.1)) )) (number "1" (effects (font (size 1.0 1.0)) )))(pin input line (at -20.32 -25.4 0) (length 5.08) (name "~{2OE}" (effects (font (size 1.1 1.1)) )) (number "19" (effects (font (size 1.0 1.0)) )))(pin tri_state line (at 20.32 22.86 180) (length 5.08) (name "1Y1" (effects (font (size 1.1 1.1)) )) (number "18" (effects (font (size 1.0 1.0)) )))(pin tri_state line (at 20.32 17.78 180) (length 5.08) (name "1Y2" (effects (font (size 1.1 1.1)) )) (number "16" (effects (font (size 1.0 1.0)) )))(pin tri_state line (at 20.32 12.7 180) (length 5.08) (name "1Y3" (effects (font (size 1.1 1.1)) )) (number "14" (effects (font (size 1.0 1.0)) )))(pin tri_state line (at 20.32 7.62 180) (length 5.08) (name "1Y4" (effects (font (size 1.1 1.1)) )) (number "12" (effects (font (size 1.0 1.0)) )))(pin tri_state line (at 20.32 2.54 180) (length 5.08) (name "2Y1" (effects (font (size 1.1 1.1)) )) (number "9" (effects (font (size 1.0 1.0)) )))(pin tri_state line (at 20.32 -2.54 180) (length 5.08) (name "2Y2" (effects (font (size 1.1 1.1)) )) (number "7" (effects (font (size 1.0 1.0)) )))(pin tri_state line (at 20.32 -7.62 180) (length 5.08) (name "2Y3" (effects (font (size 1.1 1.1)) )) (number "5" (effects (font (size 1.0 1.0)) )))(pin tri_state line (at 20.32 -12.7 180) (length 5.08) (name "2Y4" (effects (font (size 1.1 1.1)) )) (number "3" (effects (font (size 1.0 1.0)) )))(pin power_in line (at 0 35.56 270) (length 5.08) (name "VCC" (effects (font (size 1.1 1.1)) )) (number "20" (effects (font (size 1.0 1.0)) )))(pin power_in line (at 0 -35.56 90) (length 5.08) (name "GND" (effects (font (size 1.1 1.1)) )) (number "10" (effects (font (size 1.0 1.0)) )))))
+(symbol "MAX7219_Strip4" (pin_names (offset 0.8)) (pin_numbers hide) (exclude_from_sim yes) (in_bom no) (on_board no)
+(property "Reference" "A" (at 0 17.78 0) (effects (font (size 1.27 1.27)) ))
+(property "Value" "4 x MAX7219 modules" (at 0 -17.78 0) (effects (font (size 1.27 1.27)) ))
+(symbol "MAX7219_Strip4_0_1" (rectangle (start -31.75 7.62) (end 31.75 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "MAX7219_Strip4_1_1" (pin passive line (at -36.83 0 0) (length 5.08) (name "DIN" (effects (font (size 1.1 1.1)) )) (number "DIN" (effects (font (size 1.0 1.0)) )))(pin passive line (at 36.83 0 180) (length 5.08) (name "DOUT" (effects (font (size 1.1 1.1)) )) (number "DOUT" (effects (font (size 1.0 1.0)) )))(pin passive line (at -12.7 12.7 270) (length 5.08) (name "CLK" (effects (font (size 1.1 1.1)) )) (number "CLK" (effects (font (size 1.0 1.0)) )))(pin passive line (at 0 12.7 270) (length 5.08) (name "SS" (effects (font (size 1.1 1.1)) )) (number "SS" (effects (font (size 1.0 1.0)) )))(pin passive line (at -12.7 -12.7 90) (length 5.08) (name "5V" (effects (font (size 1.1 1.1)) )) (number "PWR" (effects (font (size 1.0 1.0)) )))(pin passive line (at 12.7 -12.7 90) (length 5.08) (name "GND" (effects (font (size 1.1 1.1)) )) (number "RET" (effects (font (size 1.0 1.0)) )))))
+(symbol "MAX7219_Bank" (pin_names (offset 0.8)) (pin_numbers hide) (exclude_from_sim yes) (in_bom no) (on_board no)
+(property "Reference" "A" (at 0 17.78 0) (effects (font (size 1.27 1.27)) ))
+(property "Value" "MAX7219 bank (count TBD)" (at 0 -17.78 0) (effects (font (size 1.27 1.27)) ))
+(symbol "MAX7219_Bank_0_1" (rectangle (start -31.75 7.62) (end 31.75 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "MAX7219_Bank_1_1" (pin passive line (at -36.83 0 0) (length 5.08) (name "DIN" (effects (font (size 1.1 1.1)) )) (number "DIN" (effects (font (size 1.0 1.0)) )))(pin passive line (at 36.83 0 180) (length 5.08) (name "DOUT" (effects (font (size 1.1 1.1)) )) (number "DOUT" (effects (font (size 1.0 1.0)) )))(pin passive line (at -12.7 12.7 270) (length 5.08) (name "CLK" (effects (font (size 1.1 1.1)) )) (number "CLK" (effects (font (size 1.0 1.0)) )))(pin passive line (at 0 12.7 270) (length 5.08) (name "SS" (effects (font (size 1.1 1.1)) )) (number "SS" (effects (font (size 1.0 1.0)) )))(pin passive line (at -12.7 -12.7 90) (length 5.08) (name "5V" (effects (font (size 1.1 1.1)) )) (number "PWR" (effects (font (size 1.0 1.0)) )))(pin passive line (at 12.7 -12.7 90) (length 5.08) (name "GND" (effects (font (size 1.1 1.1)) )) (number "RET" (effects (font (size 1.0 1.0)) )))))
+(symbol "Conn_01x04"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_01x04_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

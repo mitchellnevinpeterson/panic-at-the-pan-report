@@ -1,0 +1,32 @@
+[
+  {
+    "module": "overview",
+    "connection_checks": 5,
+    "status": "passed"
+  },
+  {
+    "module": "power_pic32",
+    "connection_checks": 28,
+    "status": "passed"
+  },
+  {
+    "module": "displays",
+    "connection_checks": 21,
+    "status": "passed"
+  },
+  {
+    "module": "inputs",
+    "connection_checks": 50,
+    "status": "passed"
+  },
+  {
+    "module": "actuators",
+    "connection_checks": 18,
+    "status": "passed"
+  },
+  {
+    "module": "audio",
+    "connection_checks": 10,
+    "status": "passed"
+  }
+]

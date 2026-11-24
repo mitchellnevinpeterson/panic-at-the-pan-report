@@ -1,0 +1,1258 @@
+(kicad_sch (version 20250114) (generator "eeschema") (uuid 75597650-65a4-58ad-bfcb-01db37c32314) (paper "A3")
+(title_block (title "Audio - PWM filter and mono amplifier") (date "2026-11-09") (rev "AU1") (company "ME218a Team 12") (comment 1 "Draft: component choices, GPIO and power budget TBD."))
+(lib_symbols (symbol "Audio:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Audio:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Audio:C_Polarized"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CP_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_Polarized_0_1"
+			(rectangle
+				(start -2.286 0.508)
+				(end 2.286 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 2.286) (xy -0.762 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.794) (xy -1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.286 -0.508)
+				(end -2.286 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "C_Polarized_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Audio:Conn_01x02"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_01x02_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Audio:Conn_01x04"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_01x04_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Audio:Conn_01x06"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_01x06_1_1"
+			(rectangle
+				(start -1.27 6.35)
+				(end 1.27 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -7.493)
+				(end 0 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "Pin_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Audio:SW_SPST"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch lever"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_SPST_0_0"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.254) (xy 1.524 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SPST_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Audio:PAM8302_Module" (pin_names (offset 0.8)) (pin_numbers hide) (exclude_from_sim yes) (in_bom no) (on_board no)
+(property "Reference" "U" (at 0 22.86 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "PAM8302_Module" (at 0 20.32 0) (effects (font (size 1.27 1.27)) (justify left) ))
+(symbol "PAM8302_Module_0_1" (rectangle (start -20.32 17.78) (end 20.32 -17.78) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "PAM8302_Module_1_1" (pin passive line (at -25.4 7.62 0) (length 5.08) (name "A+" (effects (font (size 1.1 1.1)) )) (number "A+" (effects (font (size 1.0 1.0)) )))(pin passive line (at -25.4 -2.54 0) (length 5.08) (name "A-" (effects (font (size 1.1 1.1)) )) (number "A-" (effects (font (size 1.0 1.0)) )))(pin passive line (at -25.4 -12.7 0) (length 5.08) (name "SD" (effects (font (size 1.1 1.1)) )) (number "SD" (effects (font (size 1.0 1.0)) )))(pin passive line (at 25.4 7.62 180) (length 5.08) (name "OUT+" (effects (font (size 1.1 1.1)) )) (number "OUT+" (effects (font (size 1.0 1.0)) )))(pin passive line (at 25.4 -7.62 180) (length 5.08) (name "OUT-" (effects (font (size 1.1 1.1)) )) (number "OUT-" (effects (font (size 1.0 1.0)) )))(pin passive line (at 0 22.86 270) (length 5.08) (name "VIN" (effects (font (size 1.1 1.1)) )) (number "VIN" (effects (font (size 1.0 1.0)) )))(pin passive line (at 0 -22.86 90) (length 5.08) (name "GND" (effects (font (size 1.1 1.1)) )) (number "GND" (effects (font (size 1.0 1.0)) )))))(symbol "Audio:Speaker" (pin_names (offset 0.8)) (pin_numbers hide) (exclude_from_sim yes) (in_bom no) (on_board no)
+(property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "Speaker" (at 0 15.24 0) (effects (font (size 1.27 1.27)) (justify left) ))
+(symbol "Speaker_0_1" (rectangle (start -10.16 12.7) (end 10.16 -12.7) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "Speaker_1_1" (pin passive line (at -15.24 7.62 0) (length 5.08) (name "+" (effects (font (size 1.1 1.1)) )) (number "+" (effects (font (size 1.0 1.0)) )))(pin passive line (at -15.24 -7.62 0) (length 5.08) (name "-" (effects (font (size 1.1 1.1)) )) (number "-" (effects (font (size 1.0 1.0)) ))))))
+(text "05  AUDIO | PWM TONES + MONO SPEAKER" (at 17.78 16.51 0) (effects (font (size 2.5 2.5)) (justify left)) (uuid 2b2ed0a0-64bd-5971-8a1a-bf6a37820450))
+(text "AU1 PROPOSAL - Adafruit PAM8302 board + 4 ohm / 3 W speaker; not confirmed owned." (at 17.78 24.13 0) (effects (font (size 1.45 1.45)) (justify left)) (uuid c39fdf8b-2650-5193-8cad-7fe84b0a5064))
+(text "PIC32 PWM -> ATTENUATION / LOW-PASS -> AMPLIFIER" (at 17.78 39.37 0) (effects (font (size 1.65 1.65)) (justify left)) (uuid d99c7793-f032-5312-ba44-40891c9b343f))
+(symbol (lib_id "Audio:Conn_01x02") (at 55.88 55.88 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid eb99ed12-52b8-5e37-8584-7d7fc40ff54b)
+(property "Reference" "J50" (at 60.96 50.8 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "PIC harness (proposed)" (at 60.96 53.34 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 55.88 55.88 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f" (reference "J50") (unit 1)))))
+(wire (pts (xy 50.8 55.88) (xy 20.32 55.88)) (stroke (width 0) (type default)) (uuid 7e4df441-bd30-5199-a72c-aec42b05543e))
+(global_label "AUDIO_PWM" (shape input) (at 20.32 55.88 180) (effects (font (size 1 1)) (justify right)) (uuid 14493dce-f603-4fc0-82f3-a79b2fff4904))
+(wire (pts (xy 50.8 58.42) (xy 20.32 58.42)) (stroke (width 0) (type default)) (uuid 081d66a9-2372-511d-96c1-ba9a2b4c879d))
+(global_label "GNDREF" (shape input) (at 20.32 58.42 180) (effects (font (size 1.1 1.1)) (justify right)) (uuid 8554a4b0-777f-5863-b3d6-fc2916578cce))
+(symbol (lib_id "Audio:R") (at 66.04 81.28 90) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid 1bb8ed84-d6f6-526a-bdb2-0edb636de02f)
+(property "Reference" "R60" (at 58.42 73.66 90) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "10k" (at 58.42 76.2 90) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 66.04 81.28 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f" (reference "R60") (unit 1)))))
+(wire (pts (xy 62.23 81.28) (xy 30.48 81.28)) (stroke (width 0) (type default)) (uuid a5bf4fc0-19b9-5447-9a54-91b4d87b0f25))
+(global_label "AUDIO_PWM" (shape input) (at 30.48 81.28 180) (effects (font (size 1 1)) (justify right)) (uuid 10c775cc-754b-4247-bb55-6115316f5f47))
+(wire (pts (xy 69.85 81.28) (xy 88.9 81.28)) (stroke (width 0) (type default)) (uuid e90ac1c7-a098-5214-86af-f9204f7fd460))
+(wire (pts (xy 88.9 81.28) (xy 111.76 81.28)) (stroke (width 0) (type default)) (uuid e04f8c1e-d13c-5bff-a160-fc14f6737996))
+(junction (at 88.9 81.28) (diameter 0) (color 0 0 0 0) (uuid e7f969bc-c67f-5744-9b94-52af4e54e0d8))
+(symbol (lib_id "Audio:R") (at 88.9 99.06 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid 825d3922-aab5-5377-9674-002e5ccb2a7a)
+(property "Reference" "R61" (at 93.98 96.52 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "1k" (at 93.98 99.06 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 88.9 99.06 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f" (reference "R61") (unit 1)))))
+(wire (pts (xy 88.9 81.28) (xy 88.9 95.25)) (stroke (width 0) (type default)) (uuid 4054484a-72da-5b6c-9430-c811bc3187fe))
+(wire (pts (xy 88.9 102.87) (xy 88.9 111.76)) (stroke (width 0) (type default)) (uuid ff1d9680-903e-5e55-8d24-e02d0433433d))
+(global_label "GNDREF" (shape input) (at 88.9 111.76 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid ef130075-a019-5fbb-b2f0-bba407f5e3b0))
+(symbol (lib_id "Audio:C") (at 111.76 99.06 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid 59e15fa1-7c59-5ae1-8203-17343272f38d)
+(property "Reference" "C60" (at 116.84 96.52 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "33n" (at 116.84 99.06 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 111.76 99.06 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f" (reference "C60") (unit 1)))))
+(wire (pts (xy 111.76 81.28) (xy 111.76 95.25)) (stroke (width 0) (type default)) (uuid 4bc37120-d6bb-54ed-ae36-51a4aad4e512))
+(wire (pts (xy 111.76 102.87) (xy 111.76 111.76)) (stroke (width 0) (type default)) (uuid 661cf851-0ed4-581c-ba22-421edf2c402a))
+(global_label "GNDREF" (shape input) (at 111.76 111.76 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid ce4a28f9-0e11-55a6-ab14-effae7384fe4))
+(junction (at 111.76 81.28) (diameter 0) (color 0 0 0 0) (uuid 6b32476c-ac2d-5a5f-ac84-740387c4568f))
+(wire (pts (xy 111.76 81.28) (xy 128.27 81.28)) (stroke (width 0) (type default)) (uuid d98bc047-2c4c-56be-9f2c-54be56c24f69))
+(symbol (lib_id "Audio:R") (at 132.08 81.28 90) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid 606119d6-419d-51c2-b0f2-6a9fc246c48e)
+(property "Reference" "R62" (at 124.46 73.66 90) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "1k" (at 124.46 76.2 90) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 132.08 81.28 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f" (reference "R62") (unit 1)))))
+(wire (pts (xy 135.89 81.28) (xy 154.94 81.28)) (stroke (width 0) (type default)) (uuid 84cf20a8-05f3-5621-b016-5ce456631023))
+(wire (pts (xy 154.94 81.28) (xy 190.5 81.28)) (stroke (width 0) (type default)) (uuid d2bebf5e-dbf3-56ba-9074-e22ce38170a3))
+(junction (at 154.94 81.28) (diameter 0) (color 0 0 0 0) (uuid 98340e8c-775c-5adf-a159-b37eae535ea9))
+(symbol (lib_id "Audio:C") (at 154.94 99.06 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid dcaf4fb5-2bd4-53be-84bd-f5fd0bb66a62)
+(property "Reference" "C61" (at 160.02 96.52 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "33n" (at 160.02 99.06 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 154.94 99.06 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f" (reference "C61") (unit 1)))))
+(wire (pts (xy 154.94 81.28) (xy 154.94 95.25)) (stroke (width 0) (type default)) (uuid 35cdc085-3781-5183-a6df-ff566e316ff7))
+(wire (pts (xy 154.94 102.87) (xy 154.94 111.76)) (stroke (width 0) (type default)) (uuid 2ff8cd53-151d-513b-8411-63618c7b7df6))
+(global_label "GNDREF" (shape input) (at 154.94 111.76 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 4984f2d3-487c-5030-b864-9df97c57007a))
+(symbol (lib_id "Audio:PAM8302_Module") (at 215.9 88.9 0) (unit 1) (exclude_from_sim yes) (in_bom no) (on_board no) (dnp no) (uuid 7dcdb768-2cac-576b-a8bd-f4f4d45bfa0c)
+(property "Reference" "U30" (at 195.58 58.42 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "Adafruit 2130 candidate" (at 195.58 60.96 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 215.9 88.9 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f" (reference "U30") (unit 1)))))
+(wire (pts (xy 215.9 66.04) (xy 215.9 50.8)) (stroke (width 0) (type default)) (uuid 3edbcafc-dbe9-518c-8e89-82a32427d571))
+(global_label "+5V_LOAD" (shape input) (at 215.9 50.8 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid d7e931f7-1af6-5ba8-9d3a-5b221ac8053b))
+(wire (pts (xy 215.9 111.76) (xy 215.9 119.38)) (stroke (width 0) (type default)) (uuid bcb1c08a-6dc9-57f3-9ea4-2f5b1f96f264))
+(global_label "GNDREF" (shape input) (at 215.9 119.38 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 108b5d81-f881-5edf-8f32-90c41a323964))
+(wire (pts (xy 190.5 91.44) (xy 177.8 91.44)) (stroke (width 0) (type default)) (uuid 18b3f9b4-5840-5f2f-bbe3-9a1102be53f5))
+(global_label "GNDREF" (shape input) (at 177.8 91.44 180) (effects (font (size 1.1 1.1)) (justify right)) (uuid f3247cd2-cb40-5012-98f1-c14f7cfeb54f))
+(wire (pts (xy 190.5 101.6) (xy 177.8 101.6)) (stroke (width 0) (type default)) (uuid 7714bca8-a2e7-5a19-96b3-a527a8adad5f))
+(label "AMP_SD" (at 177.8 101.6 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid 6e980f90-4e5a-5a3e-a311-63c8e31b0823))
+(symbol (lib_id "Audio:Speaker") (at 294.64 88.9 0) (unit 1) (exclude_from_sim yes) (in_bom no) (on_board no) (dnp no) (uuid 1cec3708-820c-5257-9648-bd906edf8229)
+(property "Reference" "LS30" (at 278.13 63.5 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "4 ohm / 3 W candidate" (at 278.13 66.04 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 294.64 88.9 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f" (reference "LS30") (unit 1)))))
+(wire (pts (xy 241.3 81.28) (xy 279.4 81.28)) (stroke (width 0) (type default)) (uuid 5d78d241-93c7-5156-aa07-d0c6d6927e06))
+(wire (pts (xy 241.3 96.52) (xy 279.4 96.52)) (stroke (width 0) (type default)) (uuid 12a9fc16-6c95-5483-b663-312051530606))
+(text "Speaker across OUT+ / OUT-.\nNEITHER speaker lead goes to GND." (at 264.16 114.3 0) (effects (font (size 1.4 1.4)) (justify left)) (uuid a0b63a98-d0db-58e7-8fd5-5eaabf05f3a4))
+(text "POWER / MANUAL MUTE" (at 17.78 137.16 0) (effects (font (size 1.65 1.65)) (justify left)) (uuid 629e2037-e133-52f8-b661-4378d5c65bea))
+(symbol (lib_id "Audio:C") (at 43.18 160.02 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid 5dff4cbf-e268-5f42-99e5-ac34d955a430)
+(property "Reference" "C62" (at 48.26 157.48 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "100n / 16V" (at 48.26 160.02 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 43.18 160.02 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f" (reference "C62") (unit 1)))))
+(wire (pts (xy 43.18 156.21) (xy 43.18 151.13)) (stroke (width 0) (type default)) (uuid fc3c24c5-0e02-5b2c-aa96-c7923b0fa493))
+(wire (pts (xy 43.18 163.83) (xy 43.18 168.91)) (stroke (width 0) (type default)) (uuid 63722f3e-f23a-5a66-bf19-a2f2d5dfbe0b))
+(global_label "+5V_LOAD" (shape input) (at 43.18 151.13 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid d06d9088-adbd-5e44-9ecc-3f2b64c0f91d))
+(global_label "GNDREF" (shape input) (at 43.18 168.91 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 2fb0d593-d164-5465-8820-0c386fa1cc00))
+(symbol (lib_id "Audio:C_Polarized") (at 101.6 160.02 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid f7304741-55e5-543c-8d8b-c0b6e1240a19)
+(property "Reference" "C63" (at 106.68 157.48 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "100u / 10V provisional" (at 106.68 160.02 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 101.6 160.02 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f" (reference "C63") (unit 1)))))
+(wire (pts (xy 101.6 156.21) (xy 101.6 151.13)) (stroke (width 0) (type default)) (uuid d6d006db-57dc-521c-87e6-7fbf9d1c1632))
+(wire (pts (xy 101.6 163.83) (xy 101.6 168.91)) (stroke (width 0) (type default)) (uuid 665c37c0-239b-5c7e-9f6c-94815f68ebe8))
+(global_label "+5V_LOAD" (shape input) (at 101.6 151.13 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 341d973b-9581-51b8-ab9d-35cb719a19c3))
+(global_label "GNDREF" (shape input) (at 101.6 168.91 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid e4701f1b-06b0-575d-8b74-23adcb07e50b))
+(symbol (lib_id "Audio:R") (at 185.42 160.02 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid 83086599-a05e-55d9-9971-79553fa0c8b9)
+(property "Reference" "R63" (at 190.5 157.48 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "10k" (at 190.5 160.02 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 185.42 160.02 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f" (reference "R63") (unit 1)))))
+(wire (pts (xy 185.42 156.21) (xy 185.42 151.13)) (stroke (width 0) (type default)) (uuid fa491c03-171b-51bd-b284-94c1b8618ef8))
+(wire (pts (xy 185.42 163.83) (xy 185.42 168.91)) (stroke (width 0) (type default)) (uuid f906110f-91a8-553a-953e-f54549ffc3da))
+(global_label "+5V_LOAD" (shape input) (at 185.42 151.13 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 3f2c65bb-9da2-5b3b-b4b0-8b78cc123fb6))
+(label "AMP_SD" (at 185.42 168.91 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid a4c92bbe-d553-5919-b5e5-77e4e6d1352e))
+(symbol (lib_id "Audio:SW_SPST") (at 226.06 168.91 0) (unit 1) (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (uuid c6e13521-1869-578c-994a-16cac194b924)
+(property "Reference" "SW30" (at 212.09 177.8 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Value" "Mute (close = silent)" (at 212.09 180.34 0) (effects (font (size 1.27 1.27)) (justify left) )) (property "Footprint" "" (at 226.06 168.91 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+(instances (project "panic_at_the_pan_interfaces" (path "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f" (reference "SW30") (unit 1)))))
+(wire (pts (xy 185.42 168.91) (xy 220.98 168.91)) (stroke (width 0) (type default)) (uuid ad284faf-c7d4-5002-a3ad-2b6d6d8b0bd9))
+(junction (at 185.42 168.91) (diameter 0) (color 0 0 0 0) (uuid 97a398b1-c29d-58f6-8676-96aa861202af))
+(wire (pts (xy 231.14 168.91) (xy 246.38 168.91)) (stroke (width 0) (type default)) (uuid d77b2d52-156c-5927-94cf-364c3c11f33e))
+(global_label "GNDREF" (shape input) (at 246.38 168.91 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid d01ebcca-f133-573f-837c-e2d1b27485ed))
+(text "Board includes input AC-coupling capacitors.\nTie A- to ground for this single-ended input.\nUse onboard trim to set volume; start low.\nSD = low shuts amplifier down." (at 276.86 160.02 0) (effects (font (size 1.35 1.35)) (justify left)) (uuid 4fb5769b-68d1-5bbe-b3ec-5414d3a17849))
+(text "FIRMWARE ASSUMPTION / CHECK BEFORE BUILD" (at 17.78 200.66 0) (effects (font (size 1.65 1.65)) (justify left)) (uuid 883eceed-d6a1-547d-924e-16d20638cccf))
+(text "One AUDIO_PWM GPIO, 3.3 V. Proposed >= 62.5 kHz carrier; vary duty for ~0.5-2 kHz game tones.\nR60/R61 attenuate to at most ~0.30 Vpp before loading. Two RC poles suppress the carrier; values are provisional.\nSilence: steady PWM duty (50% proposed). Check residual carrier, clipping and startup pop on the real board.\nManual mute uses no extra MCU pin; automatic shutdown would need another allocated output." (at 17.78 218.44 0) (effects (font (size 1.35 1.35)) (justify left)) (uuid 8ff52dfe-6f31-5ef3-983f-f7fb9b9bdc1c))
+(text "POWER / PORT NOTES" (at 17.78 242.57 0) (effects (font (size 1.55 1.55)) (justify left)) (uuid bbe89035-06b9-5741-8257-3793cf31cd1c))
+(text "Use shared 5 V / 3 A load rail, not the ~100 mA PIC supply. Include audio peaks in total load budget.\nC62/C63 near module; short supply/return and twisted speaker pair. Board has additional onboard bypassing.\nU30/LS30 are assembly symbols with logical port labels, not bare-chip or physical header pin numbers.\nSee audio.md for sources and remaining component/volume decisions." (at 17.78 256.54 0) (effects (font (size 1.25 1.25)) (justify left)) (uuid 3b84fcb3-8fb1-5e8a-b189-5cf2d00ca1ac))
+(embedded_fonts no))

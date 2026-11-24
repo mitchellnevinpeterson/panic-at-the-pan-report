@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-10T18:04:27-0800",
+    "kicad_version": "9.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848",
+            "violations": []
+        },
+        {
+            "path": "/01 Power + PIC32 core/",
+            "uuid_path": "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/37a487b1-3c9d-5765-be5a-a79f644c11b6",
+            "violations": []
+        },
+        {
+            "path": "/02 Displays/",
+            "uuid_path": "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/ea817756-df69-5dca-a4e1-538a62e9885c",
+            "violations": []
+        },
+        {
+            "path": "/03 Inputs/",
+            "uuid_path": "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/d87a8565-d2de-5b4b-a976-482369c150ee",
+            "violations": []
+        },
+        {
+            "path": "/04 Actuators/",
+            "uuid_path": "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/3bbb947f-a96d-56bc-a21f-cf888c93d77a",
+            "violations": []
+        },
+        {
+            "path": "/05 Audio/",
+            "uuid_path": "/15ba2f6c-7b0d-5b95-b289-1dc92ab65848/97f9bf38-a709-5a8e-aea6-9e5ffd30c28f",
+            "violations": []
+        }
+    ],
+    "source": "panic_at_the_pan_interfaces.kicad_sch"
+}

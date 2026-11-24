@@ -1,0 +1,512 @@
+[
+  {
+    "path": "source/peripheral-prototype/DeviceConfig.c",
+    "name": "DeviceConfig.c",
+    "group": "peripheral",
+    "label": "peripheral-prototype/DeviceConfig.c"
+  },
+  {
+    "path": "source/peripheral-prototype/board.h",
+    "name": "board.h",
+    "group": "peripheral",
+    "label": "peripheral-prototype/board.h"
+  },
+  {
+    "path": "source/peripheral-prototype/display.c",
+    "name": "display.c",
+    "group": "peripheral",
+    "label": "peripheral-prototype/display.c"
+  },
+  {
+    "path": "source/peripheral-prototype/display_spi.h",
+    "name": "display_spi.h",
+    "group": "peripheral",
+    "label": "peripheral-prototype/display_spi.h"
+  },
+  {
+    "path": "source/peripheral-prototype/heat_audio.c",
+    "name": "heat_audio.c",
+    "group": "peripheral",
+    "label": "peripheral-prototype/heat_audio.c"
+  },
+  {
+    "path": "source/peripheral-prototype/heat_audio.h",
+    "name": "heat_audio.h",
+    "group": "peripheral",
+    "label": "peripheral-prototype/heat_audio.h"
+  },
+  {
+    "path": "source/peripheral-prototype/heat_lcd.c",
+    "name": "heat_lcd.c",
+    "group": "peripheral",
+    "label": "peripheral-prototype/heat_lcd.c"
+  },
+  {
+    "path": "source/peripheral-prototype/heat_lcd.h",
+    "name": "heat_lcd.h",
+    "group": "peripheral",
+    "label": "peripheral-prototype/heat_lcd.h"
+  },
+  {
+    "path": "source/peripheral-prototype/lcd_bench.c",
+    "name": "lcd_bench.c",
+    "group": "peripheral",
+    "label": "peripheral-prototype/lcd_bench.c"
+  },
+  {
+    "path": "source/peripheral-prototype/sizzle.h",
+    "name": "sizzle.h",
+    "group": "peripheral",
+    "label": "peripheral-prototype/sizzle.h"
+  },
+  {
+    "path": "source/peripheral-prototype/st7789.c",
+    "name": "st7789.c",
+    "group": "peripheral",
+    "label": "peripheral-prototype/st7789.c"
+  },
+  {
+    "path": "source/peripheral-prototype/st7789.h",
+    "name": "st7789.h",
+    "group": "peripheral",
+    "label": "peripheral-prototype/st7789.h"
+  },
+  {
+    "path": "source/peripheral-prototype/ultrasonic.c",
+    "name": "ultrasonic.c",
+    "group": "peripheral",
+    "label": "peripheral-prototype/ultrasonic.c"
+  },
+  {
+    "path": "source/peripheral-prototype/ultrasonic.h",
+    "name": "ultrasonic.h",
+    "group": "peripheral",
+    "label": "peripheral-prototype/ultrasonic.h"
+  },
+  {
+    "path": "source/peripheral-prototype/ultrasonic_main.c",
+    "name": "ultrasonic_main.c",
+    "group": "peripheral",
+    "label": "peripheral-prototype/ultrasonic_main.c"
+  },
+  {
+    "path": "source/team-repository/firmware/app/include/EventCheckWrapper.h",
+    "name": "EventCheckWrapper.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/app/include/EventCheckWrapper.h"
+  },
+  {
+    "path": "source/team-repository/firmware/app/include/EventCheckers.h",
+    "name": "EventCheckers.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/app/include/EventCheckers.h"
+  },
+  {
+    "path": "source/team-repository/firmware/app/src/EventCheckers.c",
+    "name": "EventCheckers.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/app/src/EventCheckers.c"
+  },
+  {
+    "path": "source/team-repository/firmware/app/src/main.c",
+    "name": "main.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/app/src/main.c"
+  },
+  {
+    "path": "source/team-repository/firmware/config/BoardConfig.h",
+    "name": "BoardConfig.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/config/BoardConfig.h"
+  },
+  {
+    "path": "source/team-repository/firmware/config/ES_Configure.h",
+    "name": "ES_Configure.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/config/ES_Configure.h"
+  },
+  {
+    "path": "source/team-repository/firmware/config/GameConfig.c",
+    "name": "GameConfig.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/config/GameConfig.c"
+  },
+  {
+    "path": "source/team-repository/firmware/config/GameConfig.h",
+    "name": "GameConfig.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/config/GameConfig.h"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/include/Dispenser.h",
+    "name": "Dispenser.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/include/Dispenser.h"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/include/DriverStatus.h",
+    "name": "DriverStatus.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/include/DriverStatus.h"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/include/InputButtons.h",
+    "name": "InputButtons.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/include/InputButtons.h"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/include/Joystick.h",
+    "name": "Joystick.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/include/Joystick.h"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/include/LedPanels.h",
+    "name": "LedPanels.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/include/LedPanels.h"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/include/Servos.h",
+    "name": "Servos.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/include/Servos.h"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/include/Sound.h",
+    "name": "Sound.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/include/Sound.h"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/include/Ultrasonic.h",
+    "name": "Ultrasonic.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/include/Ultrasonic.h"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/reused/DM_Display.c",
+    "name": "DM_Display.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/reused/DM_Display.c"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/reused/DM_Display.h",
+    "name": "DM_Display.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/reused/DM_Display.h"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/reused/FontStuff.c",
+    "name": "FontStuff.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/reused/FontStuff.c"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/reused/FontStuff.h",
+    "name": "FontStuff.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/reused/FontStuff.h"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/reused/PIC32_SPI_HAL.c",
+    "name": "PIC32_SPI_HAL.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/reused/PIC32_SPI_HAL.c"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/reused/PIC32_SPI_HAL.h",
+    "name": "PIC32_SPI_HAL.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/reused/PIC32_SPI_HAL.h"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/src/Dispenser.c",
+    "name": "Dispenser.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/src/Dispenser.c"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/src/InputButtons.c",
+    "name": "InputButtons.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/src/InputButtons.c"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/src/Joystick.c",
+    "name": "Joystick.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/src/Joystick.c"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/src/LedPanels.c",
+    "name": "LedPanels.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/src/LedPanels.c"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/src/Servos.c",
+    "name": "Servos.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/src/Servos.c"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/src/Sound.c",
+    "name": "Sound.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/src/Sound.c"
+  },
+  {
+    "path": "source/team-repository/firmware/drivers/src/Ultrasonic.c",
+    "name": "Ultrasonic.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/drivers/src/Ultrasonic.c"
+  },
+  {
+    "path": "source/team-repository/firmware/services/include/GameSM.h",
+    "name": "GameSM.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/services/include/GameSM.h"
+  },
+  {
+    "path": "source/team-repository/firmware/services/include/HeatSM.h",
+    "name": "HeatSM.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/services/include/HeatSM.h"
+  },
+  {
+    "path": "source/team-repository/firmware/services/include/IngredientSM.h",
+    "name": "IngredientSM.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/services/include/IngredientSM.h"
+  },
+  {
+    "path": "source/team-repository/firmware/services/include/PanDisplaySM.h",
+    "name": "PanDisplaySM.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/services/include/PanDisplaySM.h"
+  },
+  {
+    "path": "source/team-repository/firmware/services/include/ScoreSM.h",
+    "name": "ScoreSM.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/services/include/ScoreSM.h"
+  },
+  {
+    "path": "source/team-repository/firmware/services/include/StirSM.h",
+    "name": "StirSM.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/services/include/StirSM.h"
+  },
+  {
+    "path": "source/team-repository/firmware/services/src/GameSM.c",
+    "name": "GameSM.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/services/src/GameSM.c"
+  },
+  {
+    "path": "source/team-repository/firmware/services/src/HeatSM.c",
+    "name": "HeatSM.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/services/src/HeatSM.c"
+  },
+  {
+    "path": "source/team-repository/firmware/services/src/IngredientSM.c",
+    "name": "IngredientSM.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/services/src/IngredientSM.c"
+  },
+  {
+    "path": "source/team-repository/firmware/services/src/PanDisplaySM.c",
+    "name": "PanDisplaySM.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/services/src/PanDisplaySM.c"
+  },
+  {
+    "path": "source/team-repository/firmware/services/src/ScoreSM.c",
+    "name": "ScoreSM.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/services/src/ScoreSM.c"
+  },
+  {
+    "path": "source/team-repository/firmware/services/src/StirSM.c",
+    "name": "StirSM.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/services/src/StirSM.c"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/Bin_Const.h",
+    "name": "Bin_Const.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/Bin_Const.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_CheckEvents.h",
+    "name": "ES_CheckEvents.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_CheckEvents.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Configure.h",
+    "name": "ES_Configure.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Configure.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_DeferRecall.h",
+    "name": "ES_DeferRecall.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_DeferRecall.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Events.h",
+    "name": "ES_Events.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Events.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Framework.h",
+    "name": "ES_Framework.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Framework.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_General.h",
+    "name": "ES_General.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_General.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_LookupTables.h",
+    "name": "ES_LookupTables.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_LookupTables.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Port.h",
+    "name": "ES_Port.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Port.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_PostList.h",
+    "name": "ES_PostList.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_PostList.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Queue.h",
+    "name": "ES_Queue.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Queue.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_ServiceHeaders.h",
+    "name": "ES_ServiceHeaders.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_ServiceHeaders.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Timers.h",
+    "name": "ES_Timers.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Timers.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Types.h",
+    "name": "ES_Types.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/ES_Types.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/bitdefs.h",
+    "name": "bitdefs.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/bitdefs.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/circular_buffer.h",
+    "name": "circular_buffer.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/circular_buffer.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/dbprintf.h",
+    "name": "dbprintf.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/dbprintf.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkHeaders/terminal.h",
+    "name": "terminal.h",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkHeaders/terminal.h"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkSource/ES_CheckEvents.c",
+    "name": "ES_CheckEvents.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkSource/ES_CheckEvents.c"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkSource/ES_DeferRecall.c",
+    "name": "ES_DeferRecall.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkSource/ES_DeferRecall.c"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkSource/ES_Framework.c",
+    "name": "ES_Framework.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkSource/ES_Framework.c"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkSource/ES_LookupTables.c",
+    "name": "ES_LookupTables.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkSource/ES_LookupTables.c"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkSource/ES_Port.c",
+    "name": "ES_Port.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkSource/ES_Port.c"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkSource/ES_PostList.c",
+    "name": "ES_PostList.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkSource/ES_PostList.c"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkSource/ES_Queue.c",
+    "name": "ES_Queue.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkSource/ES_Queue.c"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkSource/ES_Timers.c",
+    "name": "ES_Timers.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkSource/ES_Timers.c"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkSource/circular_buffer_no_modulo_threadsafe.c",
+    "name": "circular_buffer_no_modulo_threadsafe.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkSource/circular_buffer_no_modulo_threadsafe.c"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkSource/dbprintf.c",
+    "name": "dbprintf.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkSource/dbprintf.c"
+  },
+  {
+    "path": "source/team-repository/firmware/vendor/es_framework/FrameworkSource/terminal.c",
+    "name": "terminal.c",
+    "group": "scaffold",
+    "label": "team-repository/firmware/vendor/es_framework/FrameworkSource/terminal.c"
+  }
+]

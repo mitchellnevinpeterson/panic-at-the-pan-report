@@ -1,0 +1,3 @@
+/build/
+*.mplab-local.json
+.DS_Store

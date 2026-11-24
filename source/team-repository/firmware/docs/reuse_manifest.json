@@ -1,0 +1,172 @@
+[
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/Bin_Const.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/Bin_Const.h",
+    "sha256": "5ac3fbffc18ea8f82cec05f4be148a1efd932aeb498ba362bf90dd78351cae4f"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/ES_CheckEvents.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/ES_CheckEvents.h",
+    "sha256": "ef3ebc6993e90a8b5ec5a539dcd6dde90ef24b63e4390592f839b4405113e544"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/ES_DeferRecall.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/ES_DeferRecall.h",
+    "sha256": "0e2ad367bc5f3452ee23848899f109969cfc71bcae8dd69f8a813992137d8fff"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/ES_Events.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/ES_Events.h",
+    "sha256": "026b23b42bcf03dffdaa61db8005a4774bce8bcab1a082cd85bb77a2c83b2b7c"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/ES_Framework.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/ES_Framework.h",
+    "sha256": "90224e48f89b42e4a7799a1e554e7cf3017e20642f26b69f36c1b3a19c33f0c1"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/ES_General.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/ES_General.h",
+    "sha256": "87f74c719496a1091b969cd1ff5a0584d3b0bd7ddc02bc0906380b604dbe0076"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/ES_LookupTables.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/ES_LookupTables.h",
+    "sha256": "bf6d5db9cb4990baa04ab0a44fec79c2fe265616f9698118ace1c308abf4211d"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/ES_Port.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/ES_Port.h",
+    "sha256": "c530e689c7a5aa0a53a3e2a3c736d2e87b811c6031ff2695b3c26db47561d2eb"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/ES_PostList.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/ES_PostList.h",
+    "sha256": "f55a2a3f7fd2affe3e6f46b2849ef73c914099aa02b033ea97939f818a2f786d"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/ES_Queue.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/ES_Queue.h",
+    "sha256": "328b07e17d512bb0e64c2b5d34e7c34daea95b74994d87ce4c722a964f62a3d5"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/ES_ServiceHeaders.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/ES_ServiceHeaders.h",
+    "sha256": "783b291be22e2ff4d7c83e18533f7ff28f8c642768656e08bee46402d80494e9"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/ES_Timers.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/ES_Timers.h",
+    "sha256": "b2be1906f04e45cd7af34ac304c3816540ff629d4967df6a0b03e74bd56b257e"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/ES_Types.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/ES_Types.h",
+    "sha256": "ab61c9a75c18ae549162ed6088c6ce5bc312da3261cdd8507f4b9605c7458c5c"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/bitdefs.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/bitdefs.h",
+    "sha256": "8686843841a07e13ebfaba58a68933d6e326b7bd1751146e6d81c029c7bbf307"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/circular_buffer.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/circular_buffer.h",
+    "sha256": "de0ee0538cd31439aeb7b079621ce61bd6307541f011a560b20b0848815eff6e"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/dbprintf.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/dbprintf.h",
+    "sha256": "71dec52596330b66dc1d2f0b80ecbb2bcb0148e32b6a79b96b3648982fc41ae5"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkHeaders/terminal.h",
+    "destination": "firmware/vendor/es_framework/FrameworkHeaders/terminal.h",
+    "sha256": "7bd8bb990788b123d80bd01f52a861981dd300bb5e1dc11822cf93abead7a048"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkSource/ES_CheckEvents.c",
+    "destination": "firmware/vendor/es_framework/FrameworkSource/ES_CheckEvents.c",
+    "sha256": "531f93d3931af8caa02e736025b3c12a603841af63f7d29ba4e8d13c08a379ec"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkSource/ES_DeferRecall.c",
+    "destination": "firmware/vendor/es_framework/FrameworkSource/ES_DeferRecall.c",
+    "sha256": "aa56bb77ad178b2684fc93a34feca41bade94f94f36cc9caa42924de45e6ea9d"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkSource/ES_Framework.c",
+    "destination": "firmware/vendor/es_framework/FrameworkSource/ES_Framework.c",
+    "sha256": "430b0c5f3e5a5030fa1c6ef5ca4e265a16231713b88fafa16d573ecec3e67e2b"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkSource/ES_LookupTables.c",
+    "destination": "firmware/vendor/es_framework/FrameworkSource/ES_LookupTables.c",
+    "sha256": "7500ffd50def4ae4a06c8b0a1705af26523248d17602a342ae5e3391b1966338"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkSource/ES_Port.c",
+    "destination": "firmware/vendor/es_framework/FrameworkSource/ES_Port.c",
+    "sha256": "b679d2dc33cb885ab2872c8dbde11b8da471aa2026f0ea8b09bdcf992816e956"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkSource/ES_PostList.c",
+    "destination": "firmware/vendor/es_framework/FrameworkSource/ES_PostList.c",
+    "sha256": "e4bd4992f7cd6ef5f0374fadb6900c11f9f555e9896369c4f271940be4eed5c3"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkSource/ES_Queue.c",
+    "destination": "firmware/vendor/es_framework/FrameworkSource/ES_Queue.c",
+    "sha256": "1a9ab85d3a2fc3b90476e246fde3961a4446dec10b3974511c83c732b4b9e1dd"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkSource/ES_Timers.c",
+    "destination": "firmware/vendor/es_framework/FrameworkSource/ES_Timers.c",
+    "sha256": "d18497dfaa825f5432c9a601b9a81ba6e7a688ee5fb179b64b066edb6388cb5e"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkSource/circular_buffer_no_modulo_threadsafe.c",
+    "destination": "firmware/vendor/es_framework/FrameworkSource/circular_buffer_no_modulo_threadsafe.c",
+    "sha256": "25036ed46f11024c52867f7766283da040029874025c9cd4714835e33f2539f5"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkSource/dbprintf.c",
+    "destination": "firmware/vendor/es_framework/FrameworkSource/dbprintf.c",
+    "sha256": "74dd527c48a8f4ace446cfb7d1ce41f743860ae7f10af1f8a2686ee5b40c5474"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/FrameworkSource/terminal.c",
+    "destination": "firmware/vendor/es_framework/FrameworkSource/terminal.c",
+    "sha256": "3b145d0f5660ee31f0328b822e7c389f874ea9b1112d6663c821c78c13e5006a"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/ProjectSource/PIC32_SPI_HAL.c",
+    "destination": "firmware/drivers/reused/PIC32_SPI_HAL.c",
+    "sha256": "ad4f888c91812081dac547aee0c3d7e6e653b9b6ed827d906c81fbeb379009d9"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/ProjectHeaders/PIC32_SPI_HAL.h",
+    "destination": "firmware/drivers/reused/PIC32_SPI_HAL.h",
+    "sha256": "3e7c49c915199dce7ec678377c1ca8d8112bcc17035743492fcb1f3ca562048f"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/ProjectSource/DM_Display.c",
+    "destination": "firmware/drivers/reused/DM_Display.c",
+    "sha256": "b55149c4a909c7bfdb0aaf47fa59d28d99e2d052d9cb2746699c3cb5d08f95dc"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/ProjectHeaders/DM_Display.h",
+    "destination": "firmware/drivers/reused/DM_Display.h",
+    "sha256": "759c6a2e6ae579351acd571d4fd46ddba18e3429beae35e984494e69b3ed4abe"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/ProjectSource/FontStuff.c",
+    "destination": "firmware/drivers/reused/FontStuff.c",
+    "sha256": "cdb9b7e4cf768f5dd30ab3dfcd3924c189564b2e783ca53ef2a9b099a0642096"
+  },
+  {
+    "source": "../Lab3/Lab3_Part4/ProjectHeaders/FontStuff.h",
+    "destination": "firmware/drivers/reused/FontStuff.h",
+    "sha256": "0e99c92e2b992d8b5a25fb626a587e7dc2e67d874a856254d8a821a5834d194a"
+  }
+]
